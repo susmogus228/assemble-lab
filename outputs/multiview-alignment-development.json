@@ -1,0 +1,144 @@
+[
+  {
+    "seed": 907,
+    "success": false,
+    "failure": "Grasp or held-object camera observation lost during lift",
+    "relative_mm": null,
+    "checks": [
+      {
+        "part": 1,
+        "color": "red",
+        "actual": [
+          0.4878981773287263,
+          -0.15027878631555577,
+          0.18983658893044514
+        ],
+        "success": false
+      },
+      {
+        "part": 2,
+        "color": "blue",
+        "actual": [
+          0.45184642676840875,
+          -0.28143969689979836,
+          0.024988603215319823
+        ],
+        "success": false
+      }
+    ],
+    "unselected": {},
+    "upper_seen": 0,
+    "upper_mean_err": null,
+    "upper_max_err": null,
+    "hold_checks": 1
+  },
+  {
+    "seed": 911,
+    "success": false,
+    "failure": "Grasp or held-object camera observation lost during descent",
+    "relative_mm": null,
+    "checks": [
+      {
+        "part": 1,
+        "color": "red",
+        "actual": [
+          0.5600938052807125,
+          0.09832565000040998,
+          0.07490032846424947
+        ],
+        "success": false
+      },
+      {
+        "part": 2,
+        "color": "blue",
+        "actual": [
+          0.45309358863146343,
+          -0.26606632344843995,
+          0.024988603096415984
+        ],
+        "success": false
+      }
+    ],
+    "unselected": {
+      "green": 0.16932653805962128,
+      "yellow": 0.16970160251043334
+    },
+    "upper_seen": 0,
+    "upper_mean_err": null,
+    "upper_max_err": null,
+    "hold_checks": 15
+  },
+  {
+    "seed": 919,
+    "success": false,
+    "failure": "Grasp or held-object camera observation lost during align",
+    "relative_mm": null,
+    "checks": [
+      {
+        "part": 1,
+        "color": "red",
+        "actual": [
+          0.5592633420766246,
+          0.09599912854965598,
+          0.09987389127895277
+        ],
+        "success": false
+      },
+      {
+        "part": 2,
+        "color": "blue",
+        "actual": [
+          0.4527292219950957,
+          -0.2644496147534593,
+          0.02498860312129461
+        ],
+        "success": false
+      }
+    ],
+    "unselected": {
+      "green": 0.15052139401530268,
+      "yellow": 0.15084271503900729,
+      "magenta": 0.15025363443817227,
+      "cyan": 0.15020008103369065
+    },
+    "upper_seen": 0,
+    "upper_mean_err": null,
+    "upper_max_err": null,
+    "hold_checks": 11
+  },
+  {
+    "seed": 929,
+    "success": false,
+    "failure": "Grasp or held-object camera observation lost during lift",
+    "relative_mm": null,
+    "checks": [
+      {
+        "part": 1,
+        "color": "red",
+        "actual": [
+          0.4664505052702743,
+          -0.1505246060948372,
+          0.1898855563381351
+        ],
+        "success": false
+      },
+      {
+        "part": 2,
+        "color": "blue",
+        "actual": [
+          0.44422378731440515,
+          -0.2739113742690275,
+          0.024988603215437413
+        ],
+        "success": false
+      }
+    ],
+    "unselected": {
+      "red2": 0.08041717033283692
+    },
+    "upper_seen": 0,
+    "upper_mean_err": null,
+    "upper_max_err": null,
+    "hold_checks": 1
+  }
+]

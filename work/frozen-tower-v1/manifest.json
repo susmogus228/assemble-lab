@@ -1,0 +1,41 @@
+{
+  "sha256": {
+    "color_camera_candidate.py": "7acc4c58fad25b1c749f8ef7786ce2664d673672e65f13bb1ab24bd1b3dbddcc",
+    "color_tower_candidate.py": "5e11d6776ce482b5b034ae5fffc0f089bca40f0f60021adeb7b3bc53036a815e",
+    "sensors_candidate.py": "d9d5a9173a9596d861bb3691408321455eed89d5bf09ec53c16060764350275d",
+    "tower_targets.py": "2061e02d11c9daefd4d6c83032314b2bd0bd5f8e9902894b0d635419f29abc61"
+  },
+  "cases": [
+    {
+      "seed": 211,
+      "extra": 0,
+      "same_red": false
+    },
+    {
+      "seed": 223,
+      "extra": 2,
+      "same_red": false
+    },
+    {
+      "seed": 227,
+      "extra": 4,
+      "same_red": false
+    },
+    {
+      "seed": 229,
+      "extra": 1,
+      "same_red": true
+    },
+    {
+      "seed": 233,
+      "extra": 2,
+      "same_red": true
+    },
+    {
+      "seed": 239,
+      "extra": 4,
+      "same_red": false
+    }
+  ],
+  "freeze": "Selected before evaluation; no tuning on these scenarios."
+}

@@ -1,0 +1,290 @@
+[
+  {
+    "scene": {
+      "color": "blue",
+      "seed": 0,
+      "offset": [
+        0,
+        0
+      ],
+      "extra": 0
+    },
+    "strategy": "no_retry",
+    "success": false,
+    "error_mm": 5.69,
+    "verification": [
+      {
+        "color": "blue",
+        "visible": true,
+        "xy_error_mm": 7.40803793235732,
+        "retried": false,
+        "after_error_mm": null,
+        "ambiguity": false
+      }
+    ],
+    "unselected_mm": {
+      "red": 0.2003178933364619
+    },
+    "failure": null
+  },
+  {
+    "scene": {
+      "color": "blue",
+      "seed": 0,
+      "offset": [
+        0,
+        0
+      ],
+      "extra": 0
+    },
+    "strategy": "contact",
+    "success": true,
+    "error_mm": 1.58,
+    "verification": [
+      {
+        "color": "blue",
+        "visible": true,
+        "xy_error_mm": 7.40803793235732,
+        "retried": true,
+        "after_error_mm": 5.42042925444772,
+        "ambiguity": false,
+        "contact_feedback": {
+          "bilateral": true,
+          "center": [
+            0.5693004349205621,
+            0.07959392999369333
+          ]
+        }
+      }
+    ],
+    "unselected_mm": {
+      "red": 0.32956734647449326
+    },
+    "failure": null
+  },
+  {
+    "scene": {
+      "color": "blue",
+      "seed": 0,
+      "offset": [
+        0,
+        0
+      ],
+      "extra": 0
+    },
+    "strategy": "push",
+    "success": true,
+    "error_mm": 1.72,
+    "verification": [
+      {
+        "color": "blue",
+        "visible": true,
+        "xy_error_mm": 7.40803793235732,
+        "retried": true,
+        "after_error_mm": 2.1065269103397943,
+        "ambiguity": false,
+        "push_contact": true
+      }
+    ],
+    "unselected_mm": {
+      "red": 0.2793662628310159
+    },
+    "failure": null
+  },
+  {
+    "scene": {
+      "color": "red",
+      "seed": 1,
+      "offset": [
+        -0.01,
+        0.005
+      ],
+      "extra": 2
+    },
+    "strategy": "no_retry",
+    "success": false,
+    "error_mm": 12.49,
+    "verification": [
+      {
+        "color": "red",
+        "visible": true,
+        "xy_error_mm": 9.771731715549995,
+        "retried": false,
+        "after_error_mm": null,
+        "ambiguity": false
+      }
+    ],
+    "unselected_mm": {
+      "blue": 0.2005529763642479,
+      "green": 0.22867527129472232,
+      "yellow": 0.22915785344897385
+    },
+    "failure": null
+  },
+  {
+    "scene": {
+      "color": "red",
+      "seed": 1,
+      "offset": [
+        -0.01,
+        0.005
+      ],
+      "extra": 2
+    },
+    "strategy": "contact",
+    "success": false,
+    "error_mm": 19.71,
+    "verification": [
+      {
+        "color": "red",
+        "visible": true,
+        "xy_error_mm": 9.771731715549995,
+        "retried": true,
+        "after_error_mm": 18.393038403253144,
+        "ambiguity": false,
+        "contact_feedback": {
+          "bilateral": true,
+          "center": [
+            0.5501656030198812,
+            0.09554943964680945
+          ]
+        }
+      }
+    ],
+    "unselected_mm": {
+      "blue": 0.32980250351389134,
+      "green": 0.35792911014545264,
+      "yellow": 0.35841169925122124
+    },
+    "failure": null
+  },
+  {
+    "scene": {
+      "color": "red",
+      "seed": 1,
+      "offset": [
+        -0.01,
+        0.005
+      ],
+      "extra": 2
+    },
+    "strategy": "push",
+    "success": false,
+    "error_mm": 4.95,
+    "verification": [
+      {
+        "color": "red",
+        "visible": true,
+        "xy_error_mm": 9.771731715549995,
+        "retried": true,
+        "after_error_mm": 3.20697424918592,
+        "ambiguity": false,
+        "push_contact": true
+      }
+    ],
+    "unselected_mm": {
+      "blue": 0.2788504253113957,
+      "green": 0.3069792456866729,
+      "yellow": 0.3074618865310573
+    },
+    "failure": null
+  },
+  {
+    "scene": {
+      "color": "red2",
+      "seed": 0,
+      "offset": [
+        0,
+        0
+      ],
+      "extra": 1,
+      "same_red": true
+    },
+    "strategy": "no_retry",
+    "success": false,
+    "error_mm": 6.1,
+    "verification": [
+      {
+        "color": "red2",
+        "visible": true,
+        "xy_error_mm": 10.491272721442495,
+        "retried": false,
+        "after_error_mm": null,
+        "ambiguity": false
+      }
+    ],
+    "unselected_mm": {
+      "red": 0.2285680456214389,
+      "blue": 0.20085072814164695
+    },
+    "failure": null
+  },
+  {
+    "scene": {
+      "color": "red2",
+      "seed": 0,
+      "offset": [
+        0,
+        0
+      ],
+      "extra": 1,
+      "same_red": true
+    },
+    "strategy": "contact",
+    "success": false,
+    "error_mm": 4.98,
+    "verification": [
+      {
+        "color": "red2",
+        "visible": true,
+        "xy_error_mm": 10.491272721442495,
+        "retried": true,
+        "after_error_mm": 6.646185141213505,
+        "ambiguity": false,
+        "contact_feedback": {
+          "bilateral": true,
+          "center": [
+            0.5588382418186529,
+            0.07896134753144211
+          ]
+        }
+      }
+    ],
+    "unselected_mm": {
+      "red": 0.3578218826483202,
+      "blue": 0.3301003478408623
+    },
+    "failure": null
+  },
+  {
+    "scene": {
+      "color": "red2",
+      "seed": 0,
+      "offset": [
+        0,
+        0
+      ],
+      "extra": 1,
+      "same_red": true
+    },
+    "strategy": "push",
+    "success": false,
+    "error_mm": 5.35,
+    "verification": [
+      {
+        "color": "red2",
+        "visible": true,
+        "xy_error_mm": 10.491272721442495,
+        "retried": true,
+        "after_error_mm": 1.207035438004333,
+        "ambiguity": false,
+        "push_contact": true
+      }
+    ],
+    "unselected_mm": {
+      "red": 0.3090174999593252,
+      "blue": 0.28236635443037
+    },
+    "failure": null
+  }
+]

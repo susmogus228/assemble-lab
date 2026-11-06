@@ -1,0 +1,288 @@
+[
+  {
+    "scene": {
+      "color": "blue",
+      "seed": 0,
+      "offset": [
+        0,
+        0
+      ],
+      "extra": 0
+    },
+    "phases": [
+      {
+        "stage": "verify view",
+        "xy_mm": [
+          563.49,
+          95.52
+        ],
+        "error_mm": 5.69
+      },
+      {
+        "stage": "retry grasp",
+        "xy_mm": [
+          563.07,
+          85.22
+        ],
+        "error_mm": 15.1
+      },
+      {
+        "stage": "retry lift",
+        "xy_mm": [
+          563.09,
+          79.12
+        ],
+        "error_mm": 21.11
+      },
+      {
+        "stage": "retry transfer",
+        "xy_mm": [
+          549.79,
+          88.56
+        ],
+        "error_mm": 15.34
+      },
+      {
+        "stage": "retry place",
+        "xy_mm": [
+          560.72,
+          98.75
+        ],
+        "error_mm": 1.44
+      },
+      {
+        "stage": "retry release",
+        "xy_mm": [
+          561.09,
+          98.88
+        ],
+        "error_mm": 1.56
+      },
+      {
+        "stage": "retry retreat",
+        "xy_mm": [
+          561.09,
+          98.88
+        ],
+        "error_mm": 1.57
+      },
+      {
+        "stage": "retry verify view",
+        "xy_mm": [
+          561.09,
+          98.86
+        ],
+        "error_mm": 1.58
+      }
+    ],
+    "verification": [
+      {
+        "color": "blue",
+        "visible": true,
+        "xy_error_mm": 7.40803793235732,
+        "retried": true,
+        "after_error_mm": 5.42042925444772,
+        "ambiguity": false,
+        "contact_feedback": {
+          "bilateral": true,
+          "center": [
+            0.5693004349205621,
+            0.07959392999369333
+          ]
+        }
+      }
+    ],
+    "success": true
+  },
+  {
+    "scene": {
+      "color": "red",
+      "seed": 1,
+      "offset": [
+        -0.01,
+        0.005
+      ],
+      "extra": 2
+    },
+    "phases": [
+      {
+        "stage": "verify view",
+        "xy_mm": [
+          558.89,
+          112.44
+        ],
+        "error_mm": 12.49
+      },
+      {
+        "stage": "retry grasp",
+        "xy_mm": [
+          559.67,
+          101.39
+        ],
+        "error_mm": 1.43
+      },
+      {
+        "stage": "retry lift",
+        "xy_mm": [
+          559.67,
+          95.26
+        ],
+        "error_mm": 4.75
+      },
+      {
+        "stage": "retry transfer",
+        "xy_mm": [
+          565.5,
+          88.82
+        ],
+        "error_mm": 12.46
+      },
+      {
+        "stage": "retry place",
+        "xy_mm": [
+          576.3,
+          110.25
+        ],
+        "error_mm": 19.26
+      },
+      {
+        "stage": "retry release",
+        "xy_mm": [
+          576.53,
+          110.76
+        ],
+        "error_mm": 19.72
+      },
+      {
+        "stage": "retry retreat",
+        "xy_mm": [
+          576.53,
+          110.75
+        ],
+        "error_mm": 19.72
+      },
+      {
+        "stage": "retry verify view",
+        "xy_mm": [
+          576.53,
+          110.74
+        ],
+        "error_mm": 19.71
+      }
+    ],
+    "verification": [
+      {
+        "color": "red",
+        "visible": true,
+        "xy_error_mm": 9.771731715549995,
+        "retried": true,
+        "after_error_mm": 18.393038403253144,
+        "ambiguity": false,
+        "contact_feedback": {
+          "bilateral": true,
+          "center": [
+            0.5501656030198812,
+            0.09554943964680945
+          ]
+        }
+      }
+    ],
+    "success": false
+  },
+  {
+    "scene": {
+      "color": "red2",
+      "seed": 0,
+      "offset": [
+        0,
+        0
+      ],
+      "extra": 1,
+      "same_red": true
+    },
+    "phases": [
+      {
+        "stage": "verify view",
+        "xy_mm": [
+          557.59,
+          94.39
+        ],
+        "error_mm": 6.1
+      },
+      {
+        "stage": "retry grasp",
+        "xy_mm": [
+          556.49,
+          74.24
+        ],
+        "error_mm": 26.0
+      },
+      {
+        "stage": "retry lift",
+        "xy_mm": [
+          556.49,
+          78.92
+        ],
+        "error_mm": 21.37
+      },
+      {
+        "stage": "retry transfer",
+        "xy_mm": [
+          553.65,
+          85.74
+        ],
+        "error_mm": 15.61
+      },
+      {
+        "stage": "retry place",
+        "xy_mm": [
+          564.58,
+          98.41
+        ],
+        "error_mm": 4.85
+      },
+      {
+        "stage": "retry release",
+        "xy_mm": [
+          564.82,
+          98.65
+        ],
+        "error_mm": 5.0
+      },
+      {
+        "stage": "retry retreat",
+        "xy_mm": [
+          564.81,
+          98.66
+        ],
+        "error_mm": 5.0
+      },
+      {
+        "stage": "retry verify view",
+        "xy_mm": [
+          564.8,
+          98.67
+        ],
+        "error_mm": 4.99
+      }
+    ],
+    "verification": [
+      {
+        "color": "red2",
+        "visible": true,
+        "xy_error_mm": 10.491272721442495,
+        "retried": true,
+        "after_error_mm": 6.646185141213505,
+        "ambiguity": false,
+        "contact_feedback": {
+          "bilateral": true,
+          "center": [
+            0.5588382418186529,
+            0.07896134753144211
+          ]
+        }
+      }
+    ],
+    "success": false
+  }
+]

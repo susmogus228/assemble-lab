@@ -1,0 +1,144 @@
+[
+  {
+    "seed": 907,
+    "success": false,
+    "failure": "Grasp or held-object camera observation lost during align",
+    "relative_mm": null,
+    "checks": [
+      {
+        "part": 1,
+        "color": "red",
+        "actual": [
+          0.5594449291529721,
+          0.103392316932508,
+          0.049989736949648374
+        ],
+        "success": false
+      },
+      {
+        "part": 2,
+        "color": "blue",
+        "actual": [
+          0.5584414410206308,
+          0.09762160240516576,
+          0.14953150515760394
+        ],
+        "success": false
+      }
+    ],
+    "unselected": {},
+    "upper_seen": 8,
+    "upper_mean_err": 0.4197319027290288,
+    "upper_max_err": 0.5045695964074761,
+    "hold_checks": 27
+  },
+  {
+    "seed": 911,
+    "success": false,
+    "failure": "Grasp or held-object camera observation lost during align",
+    "relative_mm": null,
+    "checks": [
+      {
+        "part": 1,
+        "color": "red",
+        "actual": [
+          0.5602836580136498,
+          0.09863444825102032,
+          0.04998973329501193
+        ],
+        "success": false
+      },
+      {
+        "part": 2,
+        "color": "blue",
+        "actual": [
+          0.5511530878638968,
+          0.0795735502696382,
+          0.239531981362507
+        ],
+        "success": false
+      }
+    ],
+    "unselected": {
+      "green": 0.3304196172086216,
+      "yellow": 0.3578755936880717
+    },
+    "upper_seen": 1,
+    "upper_mean_err": 0.49103977472140237,
+    "upper_max_err": 0.49103977472140237,
+    "hold_checks": 20
+  },
+  {
+    "seed": 919,
+    "success": false,
+    "failure": "Grasp or held-object camera observation lost during align",
+    "relative_mm": null,
+    "checks": [
+      {
+        "part": 1,
+        "color": "red",
+        "actual": [
+          0.5601108460984193,
+          0.09892952451836404,
+          0.04998973421703754
+        ],
+        "success": false
+      },
+      {
+        "part": 2,
+        "color": "blue",
+        "actual": [
+          0.5514113127753274,
+          0.0793956962171397,
+          0.23946646577930533
+        ],
+        "success": false
+      }
+    ],
+    "unselected": {
+      "green": 0.3303123459686697,
+      "yellow": 0.3301514038528163,
+      "magenta": 0.35819621701586185,
+      "cyan": 0.3583039753446624
+    },
+    "upper_seen": 1,
+    "upper_mean_err": 0.591204163440625,
+    "upper_max_err": 0.591204163440625,
+    "hold_checks": 20
+  },
+  {
+    "seed": 929,
+    "success": false,
+    "failure": null,
+    "relative_mm": 2.7918256617366306,
+    "checks": [
+      {
+        "part": 1,
+        "color": "red",
+        "actual": [
+          0.5606243439685326,
+          0.10173104898731092,
+          0.04998590918468209
+        ],
+        "success": true
+      },
+      {
+        "part": 2,
+        "color": "blue",
+        "actual": [
+          0.5634111742119202,
+          0.10189798526279065,
+          0.09997265493505374
+        ],
+        "success": false
+      }
+    ],
+    "unselected": {
+      "red2": 0.4981300048470319
+    },
+    "upper_seen": 18,
+    "upper_mean_err": 1.1996729537425752,
+    "upper_max_err": 1.5535926490022016,
+    "hold_checks": 36
+  }
+]

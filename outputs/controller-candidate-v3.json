@@ -1,0 +1,257 @@
+[
+  {
+    "offset": [
+      0,
+      0
+    ],
+    "development": true,
+    "elapsed_seconds": 4.95,
+    "simulated_seconds": 38.86666666666667,
+    "criteria": {
+      "success": true,
+      "piece_checks": [
+        true,
+        true
+      ],
+      "relative_offset_mm": 1.1048722386551324,
+      "relative_yaw_degrees": 0.2880643873072728,
+      "position_tolerance_mm": 3,
+      "rotation_tolerance_degrees": 3
+    },
+    "final": [
+      {
+        "part": 1,
+        "actual": [
+          0.5598810753515707,
+          0.09810803015752086,
+          0.04998599352429166
+        ],
+        "success": true,
+        "yaw": -0.48038012965076266,
+        "supported": true
+      },
+      {
+        "part": 2,
+        "actual": [
+          0.5600059695853087,
+          0.09920582070864152,
+          0.09997470318171359
+        ],
+        "success": true,
+        "yaw": -0.19231574234349208,
+        "supported": true
+      }
+    ],
+    "push": {
+      "requested": true,
+      "contact_steps": 14,
+      "displacement_mm": 69.99085040569936,
+      "second_displacement_mm": 20.00286174628983,
+      "cube_contact_steps": 241
+    }
+  },
+  {
+    "offset": [
+      -0.01,
+      0.005
+    ],
+    "development": false,
+    "elapsed_seconds": 4.85,
+    "simulated_seconds": 38.86666666666667,
+    "criteria": {
+      "success": false,
+      "piece_checks": [
+        false,
+        false
+      ],
+      "relative_offset_mm": 21.95893746814134,
+      "relative_yaw_degrees": 0.7356980318765167,
+      "position_tolerance_mm": 3,
+      "rotation_tolerance_degrees": 3
+    },
+    "final": [
+      {
+        "part": 1,
+        "actual": [
+          0.55980546900617,
+          0.08981565426672238,
+          0.0499842653900347
+        ],
+        "success": false,
+        "yaw": -0.04164567025346638,
+        "supported": true
+      },
+      {
+        "part": 2,
+        "actual": [
+          0.5598066597168336,
+          0.11177459170258092,
+          0.09996932035127519
+        ],
+        "success": false,
+        "yaw": -0.7773437021299807,
+        "supported": true
+      }
+    ],
+    "push": {
+      "requested": true,
+      "contact_steps": 14,
+      "displacement_mm": 69.99295412312004,
+      "second_displacement_mm": 19.996348343206062,
+      "cube_contact_steps": 241
+    }
+  },
+  {
+    "offset": [
+      0.01,
+      -0.005
+    ],
+    "development": false,
+    "elapsed_seconds": 3.77,
+    "simulated_seconds": 38.86666666666667,
+    "criteria": {
+      "success": false,
+      "piece_checks": [
+        false,
+        false
+      ],
+      "relative_offset_mm": 11.032821131052797,
+      "relative_yaw_degrees": 0.327541576314502,
+      "position_tolerance_mm": 3,
+      "rotation_tolerance_degrees": 3
+    },
+    "final": [
+      {
+        "part": 1,
+        "actual": [
+          0.5597477723228421,
+          0.08873946374321097,
+          0.0499881926294913
+        ],
+        "success": false,
+        "yaw": -0.38490212035780913,
+        "supported": true
+      },
+      {
+        "part": 2,
+        "actual": [
+          0.559929615934458,
+          0.07770814129253809,
+          0.09997695243691962
+        ],
+        "success": false,
+        "yaw": -0.05736054404330665,
+        "supported": true
+      }
+    ],
+    "push": {
+      "requested": true,
+      "contact_steps": 14,
+      "displacement_mm": 70.1576797180392,
+      "second_displacement_mm": 20.555268149354745,
+      "cube_contact_steps": 203
+    }
+  },
+  {
+    "offset": [
+      -0.007,
+      -0.006
+    ],
+    "development": false,
+    "elapsed_seconds": 5.27,
+    "simulated_seconds": 38.86666666666667,
+    "criteria": {
+      "success": false,
+      "piece_checks": [
+        false,
+        false
+      ],
+      "relative_offset_mm": 11.524849281420684,
+      "relative_yaw_degrees": 0.15874975037699102,
+      "position_tolerance_mm": 3,
+      "rotation_tolerance_degrees": 3
+    },
+    "final": [
+      {
+        "part": 1,
+        "actual": [
+          0.5599889935769555,
+          0.10675952009645327,
+          0.04998379814381535
+        ],
+        "success": false,
+        "yaw": 0.47789949548875155,
+        "supported": true
+      },
+      {
+        "part": 2,
+        "actual": [
+          0.5599683932286411,
+          0.11828435096658374,
+          0.09997136729734153
+        ],
+        "success": false,
+        "yaw": 0.6366492458657436,
+        "supported": true
+      }
+    ],
+    "push": {
+      "requested": true,
+      "contact_steps": 14,
+      "displacement_mm": 69.99698191399526,
+      "second_displacement_mm": 20.04189690190347,
+      "cube_contact_steps": 242
+    }
+  },
+  {
+    "offset": [
+      0.006,
+      0.007
+    ],
+    "development": false,
+    "elapsed_seconds": 4.48,
+    "simulated_seconds": 38.86666666666667,
+    "criteria": {
+      "success": false,
+      "piece_checks": [
+        false,
+        false
+      ],
+      "relative_offset_mm": 50.015733136173765,
+      "relative_yaw_degrees": 0.032905158413328195,
+      "position_tolerance_mm": 3,
+      "rotation_tolerance_degrees": 3
+    },
+    "final": [
+      {
+        "part": 1,
+        "actual": [
+          0.5598410073736313,
+          0.11972467083364237,
+          0.049989886975101754
+        ],
+        "success": false,
+        "yaw": 0.038315141315867995,
+        "supported": true
+      },
+      {
+        "part": 2,
+        "actual": [
+          0.5596556706377496,
+          0.06970928108765236,
+          0.049989745104374914
+        ],
+        "success": false,
+        "yaw": 0.07122029972919267,
+        "supported": true
+      }
+    ],
+    "push": {
+      "requested": true,
+      "contact_steps": 14,
+      "displacement_mm": 69.99283563091282,
+      "second_displacement_mm": 19.99731052307012,
+      "cube_contact_steps": 241
+    }
+  }
+]

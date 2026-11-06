@@ -1,0 +1,56 @@
+{
+  "complete": true,
+  "parts": [
+    {
+      "part": 1,
+      "actual": [
+        0.5601162328930901,
+        0.10112457683382112,
+        0.049988604779739765
+      ],
+      "target": [
+        0.56,
+        0.1,
+        0.05
+      ],
+      "success": true,
+      "robot_contacts": 0
+    },
+    {
+      "part": 2,
+      "actual": [
+        0.5528055666825072,
+        0.10715260507566438,
+        0.0999781668585418
+      ],
+      "target": [
+        0.5601162328930901,
+        0.10112457683382112,
+        0.1
+      ],
+      "success": true,
+      "robot_contacts": 0
+    }
+  ],
+  "final_recheck": [
+    {
+      "part": 1,
+      "actual": [
+        0.55730041558204,
+        0.10847376308243119,
+        0.049988900097221185
+      ],
+      "success": true
+    },
+    {
+      "part": 2,
+      "actual": [
+        0.5528055666825072,
+        0.10715260507566438,
+        0.0999781668585418
+      ],
+      "success": true
+    }
+  ],
+  "note": "One scripted probe using privileged simulation poses and manually tuned offsets; no trained sequence policy."
+}

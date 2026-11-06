@@ -1,0 +1,84 @@
+{
+  "files_sha256": {
+    "color_assembly.py": "9f71d8fab1d6fc496472bd064d159c8a868b0b25a6f1686fe378fd215e3aadce",
+    "color_contact_candidate.py": "aa947bf9fb316cbf0a16f6099b85f26a61665f559392f390003c1465dcc6ef96",
+    "contact_feedback.py": "ff12ea90e0af280e05cb274386f7e8ccb442d0b45130a8b5979d6a0e3eac7a44",
+    "sensors.py": "9c584d322fb22d71d2f7cd2ad42b0fb6c81ef4b9c77006a9682691f3ba7b8b5c",
+    "sequence_probe.py": "a02820104db9cad663546fae0b25b3b18e8df41f7c093fc486c2ef79c1ee5831"
+  },
+  "python": "3.11.18 | packaged by conda-forge | (main, Oct 26 2026, 11:29:07) [MSC v.1944 64 bit (AMD64)]",
+  "cases": {
+    "development": [
+      {
+        "color": "blue",
+        "seed": 0,
+        "offset": [
+          0,
+          0
+        ],
+        "extra": 0
+      },
+      {
+        "color": "red",
+        "seed": 1,
+        "offset": [
+          -0.01,
+          0.005
+        ],
+        "extra": 2
+      },
+      {
+        "color": "red2",
+        "seed": 0,
+        "offset": [
+          0,
+          0
+        ],
+        "extra": 1,
+        "same_red": true
+      }
+    ],
+    "holdout": [
+      {
+        "color": "blue",
+        "seed": 31,
+        "offset": [
+          0.004,
+          -0.006
+        ],
+        "extra": 4
+      },
+      {
+        "color": "red",
+        "seed": 47,
+        "offset": [
+          -0.008,
+          0.004
+        ],
+        "extra": 2
+      },
+      {
+        "color": "blue",
+        "seed": 53,
+        "offset": [
+          -0.006,
+          -0.003
+        ],
+        "extra": 2
+      },
+      {
+        "color": "red2",
+        "seed": 59,
+        "offset": [
+          0.005,
+          0.003
+        ],
+        "extra": 1,
+        "same_red": true
+      }
+    ]
+  },
+  "note": "Prior observed cases are development. Holdout is reserved until candidate behavior is fixed.",
+  "candidate_sha256": "657aaca9679757db2276a95567eacc4363095bd8719620ff564ad1ae5eda13b6",
+  "freeze_rule": "Candidate frozen before holdout evaluation; no tuning after observing holdout."
+}

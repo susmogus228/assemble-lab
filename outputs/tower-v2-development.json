@@ -1,0 +1,177 @@
+[
+  {
+    "seed": 0,
+    "extra": 0,
+    "success": false,
+    "failure": null,
+    "relative_mm": 10.120493232432379,
+    "unselected": {},
+    "checks": [
+      {
+        "part": 1,
+        "color": "red",
+        "actual": [
+          0.5583624388366185,
+          0.1058550210813463,
+          0.04998635237612729
+        ],
+        "success": false
+      },
+      {
+        "part": 2,
+        "color": "blue",
+        "actual": [
+          0.56016247132561,
+          0.09589589128470821,
+          0.09997569132897596
+        ],
+        "success": false
+      }
+    ],
+    "base_observations": [
+      {
+        "color": "red",
+        "point": [
+          0.5588485644309659,
+          0.10299313881490728,
+          0.07498984776123227
+        ],
+        "candidates": 1
+      }
+    ]
+  },
+  {
+    "seed": 1,
+    "extra": 2,
+    "success": false,
+    "failure": null,
+    "relative_mm": 7.910961886263458,
+    "unselected": {
+      "green": 0.5250867698813984,
+      "yellow": 0.5520414085788572
+    },
+    "checks": [
+      {
+        "part": 1,
+        "color": "red",
+        "actual": [
+          0.5575579332447713,
+          0.09931887795424588,
+          0.04998759141546071
+        ],
+        "success": true
+      },
+      {
+        "part": 2,
+        "color": "blue",
+        "actual": [
+          0.5608989868533103,
+          0.09214805661002165,
+          0.09997677239250152
+        ],
+        "success": false
+      }
+    ],
+    "base_observations": [
+      {
+        "color": "red",
+        "point": [
+          0.5588485644309659,
+          0.09963788029746888,
+          0.07498984776123227
+        ],
+        "candidates": 1
+      }
+    ]
+  },
+  {
+    "seed": 2,
+    "extra": 4,
+    "success": false,
+    "failure": null,
+    "relative_mm": 3.9885126273070504,
+    "unselected": {
+      "green": 0.4450105497203431,
+      "yellow": 0.4451712821312084,
+      "magenta": 0.4456588462520295,
+      "cyan": 0.4733662212582187
+    },
+    "checks": [
+      {
+        "part": 1,
+        "color": "red",
+        "actual": [
+          0.5599683019312196,
+          0.09658802273299089,
+          0.04998913485653991
+        ],
+        "success": false
+      },
+      {
+        "part": 2,
+        "color": "blue",
+        "actual": [
+          0.5617213333206229,
+          0.10017063545640302,
+          0.09997857364869847
+        ],
+        "success": true
+      }
+    ],
+    "base_observations": [
+      {
+        "color": "red",
+        "point": [
+          0.5622038229484042,
+          0.09963788029746888,
+          0.07498984776123227
+        ],
+        "candidates": 1
+      }
+    ]
+  },
+  {
+    "seed": 223,
+    "extra": 2,
+    "success": true,
+    "failure": null,
+    "relative_mm": 1.6361268986722484,
+    "unselected": {
+      "green": 0.5250093816297359,
+      "yellow": 0.525170074700403
+    },
+    "checks": [
+      {
+        "part": 1,
+        "color": "red",
+        "actual": [
+          0.559682482336939,
+          0.10008650820908681,
+          0.049988137067600934
+        ],
+        "success": true
+      },
+      {
+        "part": 2,
+        "color": "blue",
+        "actual": [
+          0.5587751371337641,
+          0.09872502522688155,
+          0.09997670298398012
+        ],
+        "success": true
+      }
+    ],
+    "base_observations": [
+      {
+        "color": "red",
+        "point": [
+          0.5588486400390542,
+          0.10299333346551715,
+          0.07498905665703905
+        ],
+        "candidates": 1
+      }
+    ]
+  }
+]

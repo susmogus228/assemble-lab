@@ -1,0 +1,51 @@
+{
+  "files": {
+    "work/single_grasp_coupling_probe.py": "7d6cdc367931bb691d1c14c1d49ba7dd4b745232399da23f8a403cd90e3a2dd2"
+  },
+  "cases": [
+    {
+      "source": [
+        0.445,
+        -0.135
+      ],
+      "path": "forward"
+    },
+    {
+      "source": [
+        0.475,
+        -0.155
+      ],
+      "path": "diagonal"
+    },
+    {
+      "source": [
+        0.505,
+        -0.145
+      ],
+      "path": "turn"
+    },
+    {
+      "source": [
+        0.455,
+        -0.115
+      ],
+      "path": "turn"
+    },
+    {
+      "source": [
+        0.495,
+        -0.165
+      ],
+      "path": "forward"
+    },
+    {
+      "source": [
+        0.47,
+        -0.125
+      ],
+      "path": "diagonal"
+    }
+  ],
+  "comparison": "independent finger joints versus Panda fingers coupled using Bullet gear constraint; no constraint to cube; peak change in object position in grasp-target coordinates, sampled every 8 physics steps",
+  "heldout": "frozen before running"
+}

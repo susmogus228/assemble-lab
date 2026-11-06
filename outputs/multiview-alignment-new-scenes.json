@@ -1,0 +1,624 @@
+[
+  {
+    "scene": {
+      "seed": 1009,
+      "extra": 0,
+      "same_red": false
+    },
+    "offset": [
+      -0.0096,
+      -0.0003
+    ],
+    "method": "single_view",
+    "success": false,
+    "failure": null,
+    "relative_mm": 13.631236248241535,
+    "relative_yaw": 5.148196424715962,
+    "checks": [
+      {
+        "part": 1,
+        "color": "red",
+        "actual": [
+          0.5596546089693718,
+          0.10349969490263851,
+          0.04998666947277714
+        ],
+        "success": false
+      },
+      {
+        "part": 2,
+        "color": "blue",
+        "actual": [
+          0.5584592653021349,
+          0.11707841925997674,
+          0.09997507255704122
+        ],
+        "success": false
+      }
+    ],
+    "base_xy_error_mm": 3.5166972254648776,
+    "upper_height_mm": 99.97507255704122,
+    "unselected": {},
+    "upper_tracking_count": 18,
+    "upper_mean_error_mm": 12.90468071363427,
+    "upper_max_error_mm": 17.835772939332845,
+    "tracking_modes": {
+      "observed": 0,
+      "predicted": 0
+    },
+    "hold_checks": 36
+  },
+  {
+    "scene": {
+      "seed": 1009,
+      "extra": 0,
+      "same_red": false
+    },
+    "offset": [
+      -0.0096,
+      -0.0003
+    ],
+    "method": "two_view",
+    "success": false,
+    "failure": "Grasp or held-object camera observation lost during lift",
+    "relative_mm": null,
+    "relative_yaw": null,
+    "checks": [
+      {
+        "part": 1,
+        "color": "red",
+        "actual": [
+          0.5594859405972363,
+          0.10365264923744615,
+          0.049988606494749094
+        ],
+        "success": false
+      },
+      {
+        "part": 2,
+        "color": "blue",
+        "actual": [
+          0.42423961663886356,
+          -0.26615898896012674,
+          0.18992017376495063
+        ],
+        "success": false
+      }
+    ],
+    "base_xy_error_mm": 3.688645214897424,
+    "upper_height_mm": 189.92017376495062,
+    "unselected": {},
+    "upper_tracking_count": 0,
+    "upper_mean_error_mm": null,
+    "upper_max_error_mm": null,
+    "tracking_modes": {
+      "observed": 0,
+      "predicted": 0
+    },
+    "hold_checks": 19
+  },
+  {
+    "scene": {
+      "seed": 1013,
+      "extra": 2,
+      "same_red": false
+    },
+    "offset": [
+      0.0122,
+      0.0053
+    ],
+    "method": "single_view",
+    "success": false,
+    "failure": null,
+    "relative_mm": 4.047530715143664,
+    "relative_yaw": 0.18018140608455013,
+    "checks": [
+      {
+        "part": 1,
+        "color": "red",
+        "actual": [
+          0.5587383656521362,
+          0.10153261635146385,
+          0.0499884695487615
+        ],
+        "success": true
+      },
+      {
+        "part": 2,
+        "color": "blue",
+        "actual": [
+          0.5612183498681002,
+          0.10473139473994296,
+          0.09997723420051541
+        ],
+        "success": false
+      }
+    ],
+    "base_xy_error_mm": 1.9851030473212756,
+    "upper_height_mm": 99.97723420051541,
+    "unselected": {
+      "green": 0.4712846371365831,
+      "yellow": 0.498344479769374
+    },
+    "upper_tracking_count": 18,
+    "upper_mean_error_mm": 4.07392766380685,
+    "upper_max_error_mm": 7.8293866227173226,
+    "tracking_modes": {
+      "observed": 0,
+      "predicted": 0
+    },
+    "hold_checks": 36
+  },
+  {
+    "scene": {
+      "seed": 1013,
+      "extra": 2,
+      "same_red": false
+    },
+    "offset": [
+      0.0122,
+      0.0053
+    ],
+    "method": "two_view",
+    "success": true,
+    "failure": null,
+    "relative_mm": 2.599161268241455,
+    "relative_yaw": 0.17800580512893305,
+    "checks": [
+      {
+        "part": 1,
+        "color": "red",
+        "actual": [
+          0.5587285113571208,
+          0.10157235060303961,
+          0.04998801261755123
+        ],
+        "success": true
+      },
+      {
+        "part": 2,
+        "color": "blue",
+        "actual": [
+          0.5611744885549083,
+          0.10069324034474993,
+          0.09997659964899723
+        ],
+        "success": true
+      }
+    ],
+    "base_xy_error_mm": 2.0221201220130403,
+    "upper_height_mm": 99.97659964899724,
+    "unselected": {
+      "green": 0.4712846371365831,
+      "yellow": 0.498344479769374
+    },
+    "upper_tracking_count": 18,
+    "upper_mean_error_mm": 1.1508215968579218,
+    "upper_max_error_mm": 1.736539808700215,
+    "tracking_modes": {
+      "observed": 18,
+      "predicted": 0
+    },
+    "hold_checks": 36
+  },
+  {
+    "scene": {
+      "seed": 1019,
+      "extra": 4,
+      "same_red": false
+    },
+    "offset": [
+      -0.014,
+      -0.0057
+    ],
+    "method": "single_view",
+    "success": false,
+    "failure": null,
+    "relative_mm": 6.217433618340779,
+    "relative_yaw": 0.311878857696982,
+    "checks": [
+      {
+        "part": 1,
+        "color": "red",
+        "actual": [
+          0.5621088851997795,
+          0.09870901167973639,
+          0.049988882416119124
+        ],
+        "success": true
+      },
+      {
+        "part": 2,
+        "color": "blue",
+        "actual": [
+          0.563116258669082,
+          0.10484429321295226,
+          0.09997824384417701
+        ],
+        "success": false
+      }
+    ],
+    "base_xy_error_mm": 2.472660031000215,
+    "upper_height_mm": 99.97824384417702,
+    "unselected": {
+      "green": 0.4706088296792953,
+      "yellow": 0.4988803946885007,
+      "magenta": 0.49915656269999775,
+      "cyan": 0.4995226181812257
+    },
+    "upper_tracking_count": 18,
+    "upper_mean_error_mm": 4.532062436593969,
+    "upper_max_error_mm": 7.1239226176227906,
+    "tracking_modes": {
+      "observed": 0,
+      "predicted": 0
+    },
+    "hold_checks": 36
+  },
+  {
+    "scene": {
+      "seed": 1019,
+      "extra": 4,
+      "same_red": false
+    },
+    "offset": [
+      -0.014,
+      -0.0057
+    ],
+    "method": "two_view",
+    "success": false,
+    "failure": "Grasp or held-object camera observation lost during lift",
+    "relative_mm": null,
+    "relative_yaw": null,
+    "checks": [
+      {
+        "part": 1,
+        "color": "red",
+        "actual": [
+          0.5621573943319169,
+          0.0987798115852959,
+          0.04998973587016479
+        ],
+        "success": false
+      },
+      {
+        "part": 2,
+        "color": "blue",
+        "actual": [
+          0.43878441503495336,
+          -0.2711915933370196,
+          0.18984048413739318
+        ],
+        "success": false
+      }
+    ],
+    "base_xy_error_mm": 2.478549993598094,
+    "upper_height_mm": 189.8404841373932,
+    "unselected": {
+      "green": 0.3089401296824472,
+      "yellow": 0.33722845159071124,
+      "magenta": 0.3375047972273216,
+      "cyan": 0.3378710817865785
+    },
+    "upper_tracking_count": 0,
+    "upper_mean_error_mm": null,
+    "upper_max_error_mm": null,
+    "tracking_modes": {
+      "observed": 0,
+      "predicted": 0
+    },
+    "hold_checks": 19
+  },
+  {
+    "scene": {
+      "seed": 1021,
+      "extra": 1,
+      "same_red": true
+    },
+    "offset": [
+      0.0009,
+      -0.0064
+    ],
+    "method": "single_view",
+    "success": false,
+    "failure": null,
+    "relative_mm": 3.27157437963407,
+    "relative_yaw": 0.2492810761962687,
+    "checks": [
+      {
+        "part": 1,
+        "color": "red",
+        "actual": [
+          0.559444271237811,
+          0.10400666658474059,
+          0.049988871361983336
+        ],
+        "success": false
+      },
+      {
+        "part": 2,
+        "color": "blue",
+        "actual": [
+          0.5615636910258797,
+          0.10649890627694943,
+          0.09997791563703431
+        ],
+        "success": false
+      }
+    ],
+    "base_xy_error_mm": 4.045023062777378,
+    "upper_height_mm": 99.97791563703431,
+    "unselected": {
+      "red2": 0.47128667844649447
+    },
+    "upper_tracking_count": 18,
+    "upper_mean_error_mm": 4.482793791479284,
+    "upper_max_error_mm": 7.302892159941468,
+    "tracking_modes": {
+      "observed": 0,
+      "predicted": 0
+    },
+    "hold_checks": 36
+  },
+  {
+    "scene": {
+      "seed": 1021,
+      "extra": 1,
+      "same_red": true
+    },
+    "offset": [
+      0.0009,
+      -0.0064
+    ],
+    "method": "two_view",
+    "success": false,
+    "failure": null,
+    "relative_mm": 2.725924358535857,
+    "relative_yaw": 0.2062690450464686,
+    "checks": [
+      {
+        "part": 1,
+        "color": "red",
+        "actual": [
+          0.5594775495203662,
+          0.10408263185939665,
+          0.04998838233591044
+        ],
+        "success": false
+      },
+      {
+        "part": 2,
+        "color": "blue",
+        "actual": [
+          0.5615433650578124,
+          0.1023041297442152,
+          0.09997715780177437
+        ],
+        "success": true
+      }
+    ],
+    "base_xy_error_mm": 4.11592485390952,
+    "upper_height_mm": 99.97715780177437,
+    "unselected": {
+      "red2": 0.47128667844649447
+    },
+    "upper_tracking_count": 18,
+    "upper_mean_error_mm": 1.2400508825660843,
+    "upper_max_error_mm": 1.624249299394483,
+    "tracking_modes": {
+      "observed": 18,
+      "predicted": 0
+    },
+    "hold_checks": 36
+  },
+  {
+    "scene": {
+      "seed": 1031,
+      "extra": 3,
+      "same_red": false
+    },
+    "offset": [
+      0.006,
+      0.001
+    ],
+    "method": "single_view",
+    "success": false,
+    "failure": null,
+    "relative_mm": 4.043934380123348,
+    "relative_yaw": 0.6827054643898833,
+    "checks": [
+      {
+        "part": 1,
+        "color": "red",
+        "actual": [
+          0.5608926234185814,
+          0.09835036547690733,
+          0.04998920986469137
+        ],
+        "success": true
+      },
+      {
+        "part": 2,
+        "color": "blue",
+        "actual": [
+          0.5635030406979112,
+          0.10143891317744874,
+          0.09997842936723307
+        ],
+        "success": false
+      }
+    ],
+    "base_xy_error_mm": 1.875652053867935,
+    "upper_height_mm": 99.97842936723308,
+    "unselected": {
+      "green": 0.4712761647566515,
+      "yellow": 0.4983445307534987,
+      "magenta": 0.4724026600326662
+    },
+    "upper_tracking_count": 18,
+    "upper_mean_error_mm": 4.240221246659293,
+    "upper_max_error_mm": 7.5906921085916315,
+    "tracking_modes": {
+      "observed": 0,
+      "predicted": 0
+    },
+    "hold_checks": 36
+  },
+  {
+    "scene": {
+      "seed": 1031,
+      "extra": 3,
+      "same_red": false
+    },
+    "offset": [
+      0.006,
+      0.001
+    ],
+    "method": "two_view",
+    "success": false,
+    "failure": null,
+    "relative_mm": 2.8319536770552696,
+    "relative_yaw": 0.4812160425184544,
+    "checks": [
+      {
+        "part": 1,
+        "color": "red",
+        "actual": [
+          0.5608343012629302,
+          0.09844142803478473,
+          0.04998842959793247
+        ],
+        "success": true
+      },
+      {
+        "part": 2,
+        "color": "blue",
+        "actual": [
+          0.563314500783261,
+          0.09707447084147616,
+          0.09997748112077125
+        ],
+        "success": false
+      }
+    ],
+    "base_xy_error_mm": 1.7678249823107124,
+    "upper_height_mm": 99.97748112077124,
+    "unselected": {
+      "green": 0.4712761647566515,
+      "yellow": 0.4983445307534987,
+      "magenta": 0.4724026600326662
+    },
+    "upper_tracking_count": 18,
+    "upper_mean_error_mm": 1.3619641597410732,
+    "upper_max_error_mm": 1.6309453601193755,
+    "tracking_modes": {
+      "observed": 18,
+      "predicted": 0
+    },
+    "hold_checks": 36
+  },
+  {
+    "scene": {
+      "seed": 1033,
+      "extra": 2,
+      "same_red": false
+    },
+    "offset": [
+      0.0138,
+      -0.0058
+    ],
+    "method": "single_view",
+    "success": false,
+    "failure": null,
+    "relative_mm": 4.532554123759894,
+    "relative_yaw": 0.5153896479927482,
+    "checks": [
+      {
+        "part": 1,
+        "color": "red",
+        "actual": [
+          0.5589497342458982,
+          0.10268253048955635,
+          0.04998847342870481
+        ],
+        "success": true
+      },
+      {
+        "part": 2,
+        "color": "blue",
+        "actual": [
+          0.5618819787946688,
+          0.10613882746623787,
+          0.09997727144227112
+        ],
+        "success": false
+      }
+    ],
+    "base_xy_error_mm": 2.8808033569888933,
+    "upper_height_mm": 99.97727144227112,
+    "unselected": {
+      "green": 0.4712239733509093,
+      "yellow": 0.4713311468194964
+    },
+    "upper_tracking_count": 18,
+    "upper_mean_error_mm": 3.9240364434751975,
+    "upper_max_error_mm": 6.098819545780592,
+    "tracking_modes": {
+      "observed": 0,
+      "predicted": 0
+    },
+    "hold_checks": 36
+  },
+  {
+    "scene": {
+      "seed": 1033,
+      "extra": 2,
+      "same_red": false
+    },
+    "offset": [
+      0.0138,
+      -0.0058
+    ],
+    "method": "two_view",
+    "success": false,
+    "failure": null,
+    "relative_mm": 3.050419097294371,
+    "relative_yaw": 0.5405787488197049,
+    "checks": [
+      {
+        "part": 1,
+        "color": "red",
+        "actual": [
+          0.5589730285084498,
+          0.10274775920961753,
+          0.04998801442438031
+        ],
+        "success": true
+      },
+      {
+        "part": 2,
+        "color": "blue",
+        "actual": [
+          0.5619459167466466,
+          0.1020643909397008,
+          0.09997662933691773
+        ],
+        "success": true
+      }
+    ],
+    "base_xy_error_mm": 2.93340265195471,
+    "upper_height_mm": 99.97662933691772,
+    "unselected": {
+      "green": 0.4712239733509093,
+      "yellow": 0.4713311468194964
+    },
+    "upper_tracking_count": 18,
+    "upper_mean_error_mm": 1.4892852017368103,
+    "upper_max_error_mm": 1.8149962922194196,
+    "tracking_modes": {
+      "observed": 18,
+      "predicted": 0
+    },
+    "hold_checks": 36
+  }
+]

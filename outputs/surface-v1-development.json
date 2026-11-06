@@ -1,0 +1,136 @@
+[
+  {
+    "seed": 1009,
+    "success": false,
+    "failure": null,
+    "relative_mm": 2.7477260152370593,
+    "checks": [
+      {
+        "part": 1,
+        "color": "red",
+        "actual": [
+          0.5596467300538629,
+          0.10350696344507929,
+          0.04998534459203181
+        ],
+        "success": false
+      },
+      {
+        "part": 2,
+        "color": "blue",
+        "actual": [
+          0.5575965215066294,
+          0.10533634672030111,
+          0.09997167285182278
+        ],
+        "success": false
+      }
+    ],
+    "unselected": {},
+    "reobservations": [],
+    "tracking_mean_mm": 2.9077344184168705
+  },
+  {
+    "seed": 1019,
+    "success": true,
+    "failure": null,
+    "relative_mm": 1.3487119078083076,
+    "checks": [
+      {
+        "part": 1,
+        "color": "red",
+        "actual": [
+          0.5620924528291563,
+          0.09869441272345099,
+          0.04998856858301484
+        ],
+        "success": true
+      },
+      {
+        "part": 2,
+        "color": "blue",
+        "actual": [
+          0.5628501850595484,
+          0.09981014821060237,
+          0.09997804790115115
+        ],
+        "success": true
+      }
+    ],
+    "unselected": {
+      "green": 0.4706088296792953,
+      "yellow": 0.4988803946885007,
+      "magenta": 0.49915656269999775,
+      "cyan": 0.4995226181812257
+    },
+    "reobservations": [],
+    "tracking_mean_mm": 0.10190432964001388
+  },
+  {
+    "seed": 1013,
+    "success": true,
+    "failure": null,
+    "relative_mm": 1.426324328841682,
+    "checks": [
+      {
+        "part": 1,
+        "color": "red",
+        "actual": [
+          0.558713537661066,
+          0.10153947134354685,
+          0.04998819884272121
+        ],
+        "success": true
+      },
+      {
+        "part": 2,
+        "color": "blue",
+        "actual": [
+          0.5600972491433313,
+          0.1011934314254839,
+          0.09997679835454351
+        ],
+        "success": true
+      }
+    ],
+    "unselected": {
+      "green": 0.4712846371365831,
+      "yellow": 0.498344479769374
+    },
+    "reobservations": [],
+    "tracking_mean_mm": 0.202322449129012
+  },
+  {
+    "seed": 1021,
+    "success": false,
+    "failure": null,
+    "relative_mm": 1.395095417023674,
+    "checks": [
+      {
+        "part": 1,
+        "color": "red",
+        "actual": [
+          0.5594768094925912,
+          0.10405536032271033,
+          0.04998861388613113
+        ],
+        "success": false
+      },
+      {
+        "part": 2,
+        "color": "blue",
+        "actual": [
+          0.5602263168597672,
+          0.10287869982403228,
+          0.09997739828394636
+        ],
+        "success": true
+      }
+    ],
+    "unselected": {
+      "red2": 0.47128667844649447
+    },
+    "reobservations": [],
+    "tracking_mean_mm": 0.25878238922465113
+  }
+]

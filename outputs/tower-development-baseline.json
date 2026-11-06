@@ -1,0 +1,347 @@
+[
+  {
+    "seed": 0,
+    "extra": 0,
+    "offset": [
+      0,
+      0
+    ],
+    "mode": "no_retry",
+    "success": false,
+    "failure": null,
+    "checks": [
+      {
+        "part": 1,
+        "color": "red",
+        "actual": [
+          0.5577151217966175,
+          0.09940174602478373,
+          0.04998821712104231
+        ],
+        "success": true
+      },
+      {
+        "part": 2,
+        "color": "blue",
+        "actual": [
+          0.5610868227807518,
+          0.10972104233523282,
+          0.09997708760701789
+        ],
+        "success": false
+      }
+    ],
+    "verification": [
+      {
+        "color": "red",
+        "visible": true,
+        "xy_error_mm": 3.8916198041356576,
+        "retried": false,
+        "after_error_mm": null,
+        "ambiguity": false
+      },
+      {
+        "color": "blue",
+        "visible": true,
+        "xy_error_mm": 6.464739487187865,
+        "retried": false,
+        "after_error_mm": null,
+        "ambiguity": false
+      }
+    ],
+    "base_shift_mm": 0.51,
+    "relative_mm": 10.856161562415164,
+    "unselected": {}
+  },
+  {
+    "seed": 0,
+    "extra": 0,
+    "offset": [
+      0,
+      0
+    ],
+    "mode": "top_depth",
+    "success": false,
+    "failure": null,
+    "checks": [
+      {
+        "part": 1,
+        "color": "red",
+        "actual": [
+          0.5586581012954308,
+          0.09200848912170861,
+          0.049985978909062735
+        ],
+        "success": false
+      },
+      {
+        "part": 2,
+        "color": "blue",
+        "actual": [
+          0.559618646693941,
+          0.09965296074419569,
+          0.09997434404356809
+        ],
+        "success": true
+      }
+    ],
+    "verification": [
+      {
+        "color": "red",
+        "visible": true,
+        "xy_error_mm": 3.20697424918592,
+        "retried": true,
+        "after_error_mm": 4.321299893977725,
+        "ambiguity": false,
+        "push_contact": true
+      },
+      {
+        "color": "blue",
+        "visible": true,
+        "xy_error_mm": 3.324452617218706,
+        "retried": true,
+        "after_error_mm": 2.605628499759222,
+        "ambiguity": false,
+        "push_contact": true
+      }
+    ],
+    "base_shift_mm": 4.14,
+    "relative_mm": 7.704582652526307,
+    "unselected": {}
+  },
+  {
+    "seed": 1,
+    "extra": 2,
+    "offset": [
+      -0.011,
+      0.0069
+    ],
+    "mode": "no_retry",
+    "success": false,
+    "failure": null,
+    "checks": [
+      {
+        "part": 1,
+        "color": "red",
+        "actual": [
+          0.5604180784985855,
+          0.10556806813642304,
+          0.04998750078866876
+        ],
+        "success": false
+      },
+      {
+        "part": 2,
+        "color": "blue",
+        "actual": [
+          0.5470169067022441,
+          0.09314597612374789,
+          0.09997628358101084
+        ],
+        "success": false
+      }
+    ],
+    "verification": [
+      {
+        "color": "red",
+        "visible": true,
+        "xy_error_mm": 3.207128777497726,
+        "retried": false,
+        "after_error_mm": null,
+        "ambiguity": false
+      },
+      {
+        "color": "blue",
+        "visible": true,
+        "xy_error_mm": 15.369822838771173,
+        "retried": false,
+        "after_error_mm": null,
+        "ambiguity": false
+      }
+    ],
+    "base_shift_mm": 1.22,
+    "relative_mm": 18.272924656070334,
+    "unselected": {
+      "green": 0.44511594824385564,
+      "yellow": 0.44522305780136023
+    }
+  },
+  {
+    "seed": 1,
+    "extra": 2,
+    "offset": [
+      -0.011,
+      0.0069
+    ],
+    "mode": "top_depth",
+    "success": false,
+    "failure": null,
+    "checks": [
+      {
+        "part": 1,
+        "color": "red",
+        "actual": [
+          0.5572300899080382,
+          0.09908429339937237,
+          0.0499883201134771
+        ],
+        "success": true
+      },
+      {
+        "part": 2,
+        "color": "blue",
+        "actual": [
+          0.5619523992705827,
+          0.09770992927445482,
+          0.09997774114488316
+        ],
+        "success": false
+      }
+    ],
+    "verification": [
+      {
+        "color": "red",
+        "visible": true,
+        "xy_error_mm": 9.951194529042759,
+        "retried": true,
+        "after_error_mm": 1.207035438004333,
+        "ambiguity": false,
+        "push_contact": true
+      },
+      {
+        "color": "blue",
+        "visible": true,
+        "xy_error_mm": 3.530219626820032,
+        "retried": true,
+        "after_error_mm": 3.530219626820032,
+        "ambiguity": false,
+        "push_contact": true
+      }
+    ],
+    "base_shift_mm": 0.5,
+    "relative_mm": 4.918239772869517,
+    "unselected": {
+      "green": 0.6080795179676372,
+      "yellow": 0.635021999947616
+    }
+  },
+  {
+    "seed": 2,
+    "extra": 4,
+    "offset": [
+      0.0137,
+      0.009
+    ],
+    "mode": "no_retry",
+    "success": false,
+    "failure": null,
+    "checks": [
+      {
+        "part": 1,
+        "color": "red",
+        "actual": [
+          0.5587700651115678,
+          0.09480328636220339,
+          0.04998864756323431
+        ],
+        "success": false
+      },
+      {
+        "part": 2,
+        "color": "blue",
+        "actual": [
+          0.5589459866357493,
+          0.10355522281003024,
+          0.09997785029161455
+        ],
+        "success": false
+      }
+    ],
+    "verification": [
+      {
+        "color": "red",
+        "visible": true,
+        "xy_error_mm": 3.8916198041356576,
+        "retried": false,
+        "after_error_mm": null,
+        "ambiguity": false
+      },
+      {
+        "color": "blue",
+        "visible": true,
+        "xy_error_mm": 0.40386039246151356,
+        "retried": false,
+        "after_error_mm": null,
+        "ambiguity": false
+      }
+    ],
+    "base_shift_mm": 2.28,
+    "relative_mm": 8.753704356983413,
+    "unselected": {
+      "green": 0.44495693906686656,
+      "yellow": 0.4451176715164321,
+      "magenta": 0.44560523575459293,
+      "cyan": 0.47331261754832327
+    }
+  },
+  {
+    "seed": 2,
+    "extra": 4,
+    "offset": [
+      0.0137,
+      0.009
+    ],
+    "mode": "top_depth",
+    "success": false,
+    "failure": null,
+    "checks": [
+      {
+        "part": 1,
+        "color": "red",
+        "actual": [
+          0.558276579109775,
+          0.09323196653866758,
+          0.04998643312923471
+        ],
+        "success": false
+      },
+      {
+        "part": 2,
+        "color": "blue",
+        "actual": [
+          0.5567009803733992,
+          0.10102980081117566,
+          0.0999743786053417
+        ],
+        "success": false
+      }
+    ],
+    "verification": [
+      {
+        "color": "red",
+        "visible": true,
+        "xy_error_mm": 2.233375531986059,
+        "retried": false,
+        "after_error_mm": null,
+        "ambiguity": false
+      },
+      {
+        "color": "blue",
+        "visible": true,
+        "xy_error_mm": 3.32293148817862,
+        "retried": true,
+        "after_error_mm": 4.3146726234619335,
+        "ambiguity": false,
+        "push_contact": true
+      }
+    ],
+    "base_shift_mm": 3.92,
+    "relative_mm": 7.955421467123573,
+    "unselected": {
+      "green": 0.5248218843659913,
+      "yellow": 0.5249825551269738,
+      "magenta": 0.5254699324418995,
+      "cyan": 0.5531664300365216
+    }
+  }
+]

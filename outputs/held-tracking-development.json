@@ -1,0 +1,285 @@
+[
+  {
+    "seed": 0,
+    "method": "baseline",
+    "success": false,
+    "failure": null,
+    "relative_mm": 10.120493232432379,
+    "checks": [
+      {
+        "part": 1,
+        "color": "red",
+        "actual": [
+          0.5583624388366185,
+          0.1058550210813463,
+          0.04998635237612729
+        ],
+        "success": false
+      },
+      {
+        "part": 2,
+        "color": "blue",
+        "actual": [
+          0.56016247132561,
+          0.09589589128470821,
+          0.09997569132897596
+        ],
+        "success": false
+      }
+    ],
+    "unselected": {},
+    "tracking_count": 0,
+    "tracking_valid": 0,
+    "tracking_error_mm": []
+  },
+  {
+    "seed": 0,
+    "method": "tracked",
+    "success": false,
+    "failure": null,
+    "relative_mm": 14.420871935192203,
+    "checks": [
+      {
+        "part": 1,
+        "color": "red",
+        "actual": [
+          0.5597714422814981,
+          0.09307732187954944,
+          0.04998781899355135
+        ],
+        "success": false
+      },
+      {
+        "part": 2,
+        "color": "blue",
+        "actual": [
+          0.5634431725428802,
+          0.10702292850883828,
+          0.09997641556399745
+        ],
+        "success": false
+      }
+    ],
+    "unselected": {},
+    "tracking_count": 22,
+    "tracking_valid": 22,
+    "tracking_error_mm": [
+      0.87,
+      1.16,
+      0.46,
+      0.49,
+      0.56,
+      0.78,
+      1.78,
+      2.5,
+      0.79,
+      3.37,
+      0.84,
+      4.54,
+      5.2,
+      5.69,
+      5.51,
+      5.45,
+      6.04,
+      2.57,
+      0.96,
+      0.96,
+      3.07,
+      1.04
+    ]
+  },
+  {
+    "seed": 2,
+    "method": "baseline",
+    "success": false,
+    "failure": null,
+    "relative_mm": 3.9885126273070504,
+    "checks": [
+      {
+        "part": 1,
+        "color": "red",
+        "actual": [
+          0.5599683019312196,
+          0.09658802273299089,
+          0.04998913485653991
+        ],
+        "success": false
+      },
+      {
+        "part": 2,
+        "color": "blue",
+        "actual": [
+          0.5617213333206229,
+          0.10017063545640302,
+          0.09997857364869847
+        ],
+        "success": true
+      }
+    ],
+    "unselected": {
+      "green": 0.4450105497203431,
+      "yellow": 0.4451712821312084,
+      "magenta": 0.4456588462520295,
+      "cyan": 0.4733662212582187
+    },
+    "tracking_count": 0,
+    "tracking_valid": 0,
+    "tracking_error_mm": []
+  },
+  {
+    "seed": 2,
+    "method": "tracked",
+    "success": false,
+    "failure": null,
+    "relative_mm": 17.025443322323273,
+    "checks": [
+      {
+        "part": 1,
+        "color": "red",
+        "actual": [
+          0.556043900358182,
+          0.09838558338673623,
+          0.04998575316701104
+        ],
+        "success": false
+      },
+      {
+        "part": 2,
+        "color": "blue",
+        "actual": [
+          0.5606246182817995,
+          0.1147832278403122,
+          0.09997246010279973
+        ],
+        "success": false
+      }
+    ],
+    "unselected": {
+      "green": 0.5248740424041503,
+      "yellow": 0.5250343893247237,
+      "magenta": 0.525523523288613,
+      "cyan": 0.5532200122238791
+    },
+    "tracking_count": 22,
+    "tracking_valid": 22,
+    "tracking_error_mm": [
+      1.0,
+      0.8,
+      1.9,
+      4.93,
+      1.39,
+      2.02,
+      0.34,
+      0.13,
+      1.03,
+      0.39,
+      0.49,
+      2.97,
+      1.71,
+      1.43,
+      1.68,
+      1.39,
+      1.44,
+      1.43,
+      1.69,
+      1.44,
+      1.49,
+      1.46
+    ]
+  },
+  {
+    "seed": 223,
+    "method": "baseline",
+    "success": true,
+    "failure": null,
+    "relative_mm": 1.6361268986722484,
+    "checks": [
+      {
+        "part": 1,
+        "color": "red",
+        "actual": [
+          0.559682482336939,
+          0.10008650820908681,
+          0.049988137067600934
+        ],
+        "success": true
+      },
+      {
+        "part": 2,
+        "color": "blue",
+        "actual": [
+          0.5587751371337641,
+          0.09872502522688155,
+          0.09997670298398012
+        ],
+        "success": true
+      }
+    ],
+    "unselected": {
+      "green": 0.5250093816297359,
+      "yellow": 0.525170074700403
+    },
+    "tracking_count": 0,
+    "tracking_valid": 0,
+    "tracking_error_mm": []
+  },
+  {
+    "seed": 223,
+    "method": "tracked",
+    "success": false,
+    "failure": null,
+    "relative_mm": 103.98243469104696,
+    "checks": [
+      {
+        "part": 1,
+        "color": "red",
+        "actual": [
+          0.5601940837763717,
+          0.10710890464850521,
+          0.04998956729024978
+        ],
+        "success": false
+      },
+      {
+        "part": 2,
+        "color": "blue",
+        "actual": [
+          0.5660781480568595,
+          0.2109247247908175,
+          0.024989767569689902
+        ],
+        "success": false
+      }
+    ],
+    "unselected": {
+      "green": 0.5250331897087069,
+      "yellow": 0.5251938885756997
+    },
+    "tracking_count": 22,
+    "tracking_valid": 22,
+    "tracking_error_mm": [
+      2.15,
+      6.6,
+      2.85,
+      2.71,
+      4.2,
+      2.89,
+      7.14,
+      7.7,
+      7.73,
+      7.04,
+      7.54,
+      8.32,
+      2.96,
+      2.83,
+      2.02,
+      2.44,
+      2.64,
+      2.57,
+      2.38,
+      2.53,
+      2.41,
+      2.54
+    ]
+  }
+]

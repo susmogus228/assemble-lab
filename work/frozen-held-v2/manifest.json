@@ -1,0 +1,35 @@
+{
+  "files": {
+    "work/color_tower_v2.py": "edb970cdb59585512c9984a5cbfebc97a68e0a9e9d803db56ceae557e29cd98c",
+    "work/color_tower_held_v2.py": "7cffb4778ee5b26ad9cec1490e8c94e0b12ee1dc1adc0aeea777ecfde3fdb193",
+    "work/held_camera.py": "76a9a817fb26410ca7a4f2210bfe12abc82d2cec87b6b033ec0a52694c2a54e5",
+    "work/sensors_candidate.py": "d9d5a9173a9596d861bb3691408321455eed89d5bf09ec53c16060764350275d",
+    "sensors.py": "9c584d322fb22d71d2f7cd2ad42b0fb6c81ef4b9c77006a9682691f3ba7b8b5c",
+    "tower_targets.py": "2061e02d11c9daefd4d6c83032314b2bd0bd5f8e9902894b0d635419f29abc61",
+    "sequence_probe.py": "a02820104db9cad663546fae0b25b3b18e8df41f7c093fc486c2ef79c1ee5831"
+  },
+  "cases": [
+    {
+      "seed": 503,
+      "extra": 0,
+      "same_red": false
+    },
+    {
+      "seed": 509,
+      "extra": 2,
+      "same_red": false
+    },
+    {
+      "seed": 521,
+      "extra": 4,
+      "same_red": false
+    },
+    {
+      "seed": 523,
+      "extra": 1,
+      "same_red": true
+    }
+  ],
+  "choice": "held_v2 selected before new scenes, as held_v1 dropped a cube during development",
+  "scope": "simulated 50 mm axis-aligned cubes; no arbitrary geometry or hardware validation"
+}

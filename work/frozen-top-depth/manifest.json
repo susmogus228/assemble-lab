@@ -1,0 +1,65 @@
+{
+  "hashes": {
+    "color_camera_candidate.py": "7acc4c58fad25b1c749f8ef7786ce2664d673672e65f13bb1ab24bd1b3dbddcc",
+    "sensors_candidate.py": "d9d5a9173a9596d861bb3691408321455eed89d5bf09ec53c16060764350275d"
+  },
+  "cases": [
+    {
+      "color": "blue",
+      "seed": 101,
+      "offset": [
+        0.003,
+        -0.004
+      ],
+      "extra": 4
+    },
+    {
+      "color": "red",
+      "seed": 107,
+      "offset": [
+        -0.009,
+        0.002
+      ],
+      "extra": 2
+    },
+    {
+      "color": "red2",
+      "seed": 109,
+      "offset": [
+        0.004,
+        0.004
+      ],
+      "extra": 1,
+      "same_red": true
+    },
+    {
+      "color": "blue",
+      "seed": 113,
+      "offset": [
+        -0.007,
+        -0.006
+      ],
+      "extra": 2
+    },
+    {
+      "color": "red",
+      "seed": 127,
+      "offset": [
+        0.008,
+        -0.003
+      ],
+      "extra": 4
+    },
+    {
+      "color": "red2",
+      "seed": 131,
+      "offset": [
+        -0.004,
+        0.006
+      ],
+      "extra": 1,
+      "same_red": true
+    }
+  ],
+  "freeze_rule": "No tuning after seeing these cases; prior holdout is now development."
+}

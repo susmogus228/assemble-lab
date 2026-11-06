@@ -1,0 +1,176 @@
+[
+  {
+    "selected": [
+      "blue"
+    ],
+    "seed": 0,
+    "extras": 0,
+    "same_red": false,
+    "retry": false,
+    "success": false,
+    "failure": null,
+    "verification": [
+      {
+        "color": "blue",
+        "visible": true,
+        "xy_error_mm": 7.40803793235732,
+        "retried": false,
+        "after_error_mm": null,
+        "ambiguity": false
+      }
+    ],
+    "unselected_mm": {
+      "red": 0.2003178933364619
+    },
+    "final_xy_error_mm": 5.69,
+    "action_colors": [
+      "blue"
+    ]
+  },
+  {
+    "selected": [
+      "blue"
+    ],
+    "seed": 0,
+    "extras": 0,
+    "same_red": false,
+    "retry": true,
+    "success": false,
+    "failure": null,
+    "verification": [
+      {
+        "color": "blue",
+        "visible": true,
+        "xy_error_mm": 7.40803793235732,
+        "retried": true,
+        "after_error_mm": 18.452990897971958,
+        "ambiguity": false
+      }
+    ],
+    "unselected_mm": {
+      "red": 0.32956734647449326
+    },
+    "final_xy_error_mm": 16.17,
+    "action_colors": [
+      "blue"
+    ]
+  },
+  {
+    "selected": [
+      "red"
+    ],
+    "seed": 1,
+    "extras": 2,
+    "same_red": false,
+    "retry": false,
+    "success": false,
+    "failure": null,
+    "verification": [
+      {
+        "color": "red",
+        "visible": true,
+        "xy_error_mm": 9.771731715549995,
+        "retried": false,
+        "after_error_mm": null,
+        "ambiguity": false
+      }
+    ],
+    "unselected_mm": {
+      "blue": 0.2005529763642479,
+      "green": 0.22867527129472232,
+      "yellow": 0.22915785344897385
+    },
+    "final_xy_error_mm": 12.49,
+    "action_colors": [
+      "red"
+    ]
+  },
+  {
+    "selected": [
+      "red"
+    ],
+    "seed": 1,
+    "extras": 2,
+    "same_red": false,
+    "retry": true,
+    "success": false,
+    "failure": null,
+    "verification": [
+      {
+        "color": "red",
+        "visible": true,
+        "xy_error_mm": 9.771731715549995,
+        "retried": true,
+        "after_error_mm": 10.786633122889276,
+        "ambiguity": false
+      }
+    ],
+    "unselected_mm": {
+      "blue": 0.32980250351389134,
+      "green": 0.35792911014545264,
+      "yellow": 0.35841169925122124
+    },
+    "final_xy_error_mm": 12.11,
+    "action_colors": [
+      "red"
+    ]
+  },
+  {
+    "selected": [
+      "red2"
+    ],
+    "seed": 0,
+    "extras": 1,
+    "same_red": true,
+    "retry": false,
+    "success": false,
+    "failure": null,
+    "verification": [
+      {
+        "color": "red2",
+        "visible": true,
+        "xy_error_mm": 10.491272721442495,
+        "retried": false,
+        "after_error_mm": null,
+        "ambiguity": false
+      }
+    ],
+    "unselected_mm": {
+      "red": 0.2285680456214389,
+      "blue": 0.20085072814164695
+    },
+    "final_xy_error_mm": 6.1,
+    "action_colors": [
+      "red2"
+    ]
+  },
+  {
+    "selected": [
+      "red2"
+    ],
+    "seed": 0,
+    "extras": 1,
+    "same_red": true,
+    "retry": true,
+    "success": false,
+    "failure": null,
+    "verification": [
+      {
+        "color": "red2",
+        "visible": true,
+        "xy_error_mm": 10.491272721442495,
+        "retried": true,
+        "after_error_mm": 16.41465154208178,
+        "ambiguity": false
+      }
+    ],
+    "unselected_mm": {
+      "red": 0.3578218826483202,
+      "blue": 0.3301003478408623
+    },
+    "final_xy_error_mm": 13.87,
+    "action_colors": [
+      "red2"
+    ]
+  }
+]

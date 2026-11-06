@@ -1,0 +1,196 @@
+[
+  {
+    "seed": 701,
+    "success": false,
+    "failure": null,
+    "relative_mm": 3.8053599129259976,
+    "checks": [
+      {
+        "part": 1,
+        "color": "red",
+        "actual": [
+          0.5592291108960202,
+          0.09950790748510593,
+          0.04998379570743086
+        ],
+        "success": true
+      },
+      {
+        "part": 2,
+        "color": "blue",
+        "actual": [
+          0.5618433148062909,
+          0.09674264041257394,
+          0.09997038266663177
+        ],
+        "success": false
+      }
+    ],
+    "unselected": {},
+    "verification": [
+      {
+        "color": "red",
+        "visible": true,
+        "xy_error_mm": 8.969527386548906,
+        "retried": true,
+        "after_error_mm": 0.5701801900225135,
+        "ambiguity": false,
+        "push_contact": true
+      },
+      {
+        "color": "blue",
+        "visible": true,
+        "xy_error_mm": 5.244892672782817,
+        "retried": false,
+        "after_error_mm": null,
+        "ambiguity": false
+      }
+    ]
+  },
+  {
+    "seed": 709,
+    "success": false,
+    "failure": null,
+    "relative_mm": 124.10224653001832,
+    "checks": [
+      {
+        "part": 1,
+        "color": "red",
+        "actual": [
+          0.5263298164563601,
+          0.10584220652517022,
+          0.04998973911209568
+        ],
+        "success": false
+      },
+      {
+        "part": 2,
+        "color": "blue",
+        "actual": [
+          0.4044735481299944,
+          0.08233864374481269,
+          0.024988956714798997
+        ],
+        "success": false
+      }
+    ],
+    "unselected": {
+      "green": 0.5511316587198607,
+      "yellow": 0.5785092161990633
+    },
+    "verification": [
+      {
+        "color": "red",
+        "visible": true,
+        "xy_error_mm": 14.039514489990239,
+        "retried": true,
+        "after_error_mm": 1.4458512248237823,
+        "ambiguity": false,
+        "push_contact": true
+      },
+      {
+        "color": "blue",
+        "visible": true,
+        "xy_error_mm": 157.5988924409195,
+        "retried": false,
+        "after_error_mm": null,
+        "ambiguity": false
+      }
+    ]
+  },
+  {
+    "seed": 719,
+    "success": false,
+    "failure": "Grasp or held-object camera observation lost during align",
+    "relative_mm": null,
+    "checks": [
+      {
+        "part": 1,
+        "color": "red",
+        "actual": [
+          0.5593112359939297,
+          0.09977522074328778,
+          0.049988604789465964
+        ],
+        "success": false
+      },
+      {
+        "part": 2,
+        "color": "blue",
+        "actual": [
+          0.5145840171582127,
+          0.27819070450449435,
+          0.024988617397880927
+        ],
+        "success": false
+      }
+    ],
+    "unselected": {
+      "green": 0.41000167878254473,
+      "yellow": 0.43686368794737307,
+      "magenta": 0.41117680622726127,
+      "cyan": 0.4383060036928183
+    },
+    "verification": [
+      {
+        "color": "red",
+        "visible": true,
+        "xy_error_mm": 8.96931756458635,
+        "retried": true,
+        "after_error_mm": 0.5701801900225135,
+        "ambiguity": false,
+        "push_contact": true
+      }
+    ]
+  },
+  {
+    "seed": 727,
+    "success": false,
+    "failure": null,
+    "relative_mm": 4.52642234812762,
+    "checks": [
+      {
+        "part": 1,
+        "color": "red",
+        "actual": [
+          0.5578294845418825,
+          0.09267714583293878,
+          0.04998615259792192
+        ],
+        "success": false
+      },
+      {
+        "part": 2,
+        "color": "blue",
+        "actual": [
+          0.5572682818930668,
+          0.09716864345183955,
+          0.0999734233221568
+        ],
+        "success": false
+      }
+    ],
+    "unselected": {
+      "red2": 0.5510774779151656
+    },
+    "verification": [
+      {
+        "color": "red",
+        "visible": true,
+        "xy_error_mm": 6.37016706911189,
+        "retried": true,
+        "after_error_mm": 1.4458512248237823,
+        "ambiguity": false,
+        "push_contact": true
+      },
+      {
+        "color": "blue",
+        "visible": true,
+        "xy_error_mm": 4.298980024342083,
+        "retried": false,
+        "after_error_mm": null,
+        "ambiguity": false
+      }
+    ]
+  }
+]

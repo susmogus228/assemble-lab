@@ -1,0 +1,35 @@
+{
+  "files": {
+    "work/color_tower_v2.py": "edb970cdb59585512c9984a5cbfebc97a68e0a9e9d803db56ceae557e29cd98c",
+    "work/color_tower_v4.py": "8a50505c27c1bd1241db444e744941bf15aeca9b68ebafa7bff26dfa2ce4a1d6",
+    "work/sensors_candidate.py": "d9d5a9173a9596d861bb3691408321455eed89d5bf09ec53c16060764350275d",
+    "sensors.py": "9c584d322fb22d71d2f7cd2ad42b0fb6c81ef4b9c77006a9682691f3ba7b8b5c",
+    "tower_targets.py": "2061e02d11c9daefd4d6c83032314b2bd0bd5f8e9902894b0d635419f29abc61",
+    "sequence_probe.py": "a02820104db9cad663546fae0b25b3b18e8df41f7c093fc486c2ef79c1ee5831",
+    "contact_feedback.py": "ff12ea90e0af280e05cb274386f7e8ccb442d0b45130a8b5979d6a0e3eac7a44"
+  },
+  "cases": [
+    {
+      "seed": 401,
+      "extra": 0,
+      "same_red": false
+    },
+    {
+      "seed": 409,
+      "extra": 2,
+      "same_red": false
+    },
+    {
+      "seed": 419,
+      "extra": 4,
+      "same_red": false
+    },
+    {
+      "seed": 421,
+      "extra": 1,
+      "same_red": true
+    }
+  ],
+  "selection": "v4 preserves lower-cube correction and does not push stacked top cube; selected before new-scene comparison",
+  "criteria": "original nominal targets; position and relative alignment <=3 mm; angle <=3 degrees; unselected displacement <=5 mm"
+}

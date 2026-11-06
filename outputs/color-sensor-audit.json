@@ -1,0 +1,168 @@
+[
+  {
+    "selected": [
+      "red"
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "detected": [
+      {
+        "color": "red",
+        "colors_seen": [
+          "red",
+          "blue"
+        ],
+        "ray": {
+          "hit": true,
+          "point": [
+            0.48172976957784963,
+            -0.1380245413364386,
+            0.04998873862931778
+          ]
+        }
+      }
+    ],
+    "completed_actions": [
+      "red"
+    ],
+    "success": false,
+    "failure": null,
+    "unselected_displacement_mm": {
+      "blue": 0.18772663563796604
+    }
+  },
+  {
+    "selected": [
+      "blue"
+    ],
+    "offset": [
+      0.01,
+      -0.005
+    ],
+    "detected": [
+      {
+        "color": "blue",
+        "colors_seen": [
+          "red",
+          "blue"
+        ],
+        "ray": {
+          "hit": true,
+          "point": [
+            0.46098026333042486,
+            -0.267652416960825,
+            0.0499887260615918
+          ]
+        }
+      }
+    ],
+    "completed_actions": [
+      "blue"
+    ],
+    "success": false,
+    "failure": null,
+    "unselected_displacement_mm": {
+      "red": 0.21505963918123425
+    }
+  },
+  {
+    "selected": [
+      "red",
+      "blue"
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "detected": [
+      {
+        "color": "red",
+        "colors_seen": [
+          "red",
+          "blue"
+        ],
+        "ray": {
+          "hit": true,
+          "point": [
+            0.48172976957784963,
+            -0.1380245413364386,
+            0.04998873862931778
+          ]
+        }
+      },
+      {
+        "color": "blue",
+        "colors_seen": [
+          "red",
+          "blue"
+        ],
+        "ray": {
+          "hit": true,
+          "point": [
+            0.4523391790434189,
+            -0.2641961127420059,
+            0.04998880658795493
+          ]
+        }
+      }
+    ],
+    "completed_actions": [
+      "red",
+      "blue"
+    ],
+    "success": false,
+    "failure": null,
+    "unselected_displacement_mm": {}
+  },
+  {
+    "selected": [
+      "red",
+      "blue"
+    ],
+    "offset": [
+      -0.01,
+      0.005
+    ],
+    "detected": [
+      {
+        "color": "red",
+        "colors_seen": [
+          "red",
+          "blue"
+        ],
+        "ray": {
+          "hit": true,
+          "point": [
+            0.47135886537785265,
+            -0.13283903820174053,
+            0.04998871411058865
+          ]
+        }
+      },
+      {
+        "color": "blue",
+        "colors_seen": [
+          "red",
+          "blue"
+        ],
+        "ray": {
+          "hit": true,
+          "point": [
+            0.4419683925575937,
+            -0.2590112440221178,
+            0.04998878203544865
+          ]
+        }
+      }
+    ],
+    "completed_actions": [
+      "red",
+      "blue"
+    ],
+    "success": false,
+    "failure": null,
+    "unselected_displacement_mm": {}
+  }
+]

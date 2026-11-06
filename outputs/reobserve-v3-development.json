@@ -1,0 +1,136 @@
+[
+  {
+    "seed": 1009,
+    "success": false,
+    "failure": null,
+    "relative_mm": 1.1686512309471566,
+    "checks": [
+      {
+        "part": 1,
+        "color": "red",
+        "actual": [
+          0.5596308627567639,
+          0.10347236460703324,
+          0.04998686931747438
+        ],
+        "success": false
+      },
+      {
+        "part": 2,
+        "color": "blue",
+        "actual": [
+          0.5586787104067378,
+          0.10414997186934237,
+          0.09997457815314273
+        ],
+        "success": false
+      }
+    ],
+    "unselected": {},
+    "reobservations": [],
+    "tracking_mean_mm": 1.4766214789426335
+  },
+  {
+    "seed": 1019,
+    "success": false,
+    "failure": null,
+    "relative_mm": 1.2031943828939977,
+    "checks": [
+      {
+        "part": 1,
+        "color": "red",
+        "actual": [
+          0.5620277462024573,
+          0.09872240545553289,
+          0.04998785128197576
+        ],
+        "success": true
+      },
+      {
+        "part": 2,
+        "color": "blue",
+        "actual": [
+          0.563030040427432,
+          0.09938805026292652,
+          0.09997703196212837
+        ],
+        "success": false
+      }
+    ],
+    "unselected": {
+      "green": 0.4706088296792953,
+      "yellow": 0.4988803946885007,
+      "magenta": 0.49915656269999775,
+      "cyan": 0.4995226181812257
+    },
+    "reobservations": [],
+    "tracking_mean_mm": 0.45307669794594446
+  },
+  {
+    "seed": 1013,
+    "success": true,
+    "failure": null,
+    "relative_mm": 2.599161268241455,
+    "checks": [
+      {
+        "part": 1,
+        "color": "red",
+        "actual": [
+          0.5587285113571208,
+          0.10157235060303961,
+          0.04998801261755123
+        ],
+        "success": true
+      },
+      {
+        "part": 2,
+        "color": "blue",
+        "actual": [
+          0.5611744885549083,
+          0.10069324034474993,
+          0.09997659964899723
+        ],
+        "success": true
+      }
+    ],
+    "unselected": {
+      "green": 0.4712846371365831,
+      "yellow": 0.498344479769374
+    },
+    "reobservations": [],
+    "tracking_mean_mm": 1.1508215968579218
+  },
+  {
+    "seed": 1021,
+    "success": false,
+    "failure": null,
+    "relative_mm": 2.725924358535857,
+    "checks": [
+      {
+        "part": 1,
+        "color": "red",
+        "actual": [
+          0.5594775495203662,
+          0.10408263185939665,
+          0.04998838233591044
+        ],
+        "success": false
+      },
+      {
+        "part": 2,
+        "color": "blue",
+        "actual": [
+          0.5615433650578124,
+          0.1023041297442152,
+          0.09997715780177437
+        ],
+        "success": true
+      }
+    ],
+    "unselected": {
+      "red2": 0.47128667844649447
+    },
+    "reobservations": [],
+    "tracking_mean_mm": 1.2400508825660843
+  }
+]

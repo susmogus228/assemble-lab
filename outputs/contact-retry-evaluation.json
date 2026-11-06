@@ -1,0 +1,439 @@
+[
+  {
+    "case": "blue-reference",
+    "development": true,
+    "strategy": "no_retry",
+    "seconds": 2.3,
+    "success": false,
+    "failure": null,
+    "verification": [
+      {
+        "color": "blue",
+        "visible": true,
+        "xy_error_mm": 7.40803793235732,
+        "retried": false,
+        "after_error_mm": null,
+        "ambiguity": false
+      }
+    ],
+    "unselected_mm": {
+      "red": 0.2003178933364619
+    },
+    "final_xy_error_mm": 5.69,
+    "action_colors": [
+      "blue"
+    ]
+  },
+  {
+    "case": "blue-reference",
+    "development": true,
+    "strategy": "legacy",
+    "seconds": 2.96,
+    "success": false,
+    "failure": null,
+    "verification": [
+      {
+        "color": "blue",
+        "visible": true,
+        "xy_error_mm": 7.40803793235732,
+        "retried": true,
+        "after_error_mm": 18.452990897971958,
+        "ambiguity": false
+      }
+    ],
+    "unselected_mm": {
+      "red": 0.32956734647449326
+    },
+    "final_xy_error_mm": 16.17,
+    "action_colors": [
+      "blue"
+    ]
+  },
+  {
+    "case": "blue-reference",
+    "development": true,
+    "strategy": "contact",
+    "seconds": 3.14,
+    "success": true,
+    "failure": null,
+    "verification": [
+      {
+        "color": "blue",
+        "visible": true,
+        "xy_error_mm": 7.40803793235732,
+        "retried": true,
+        "after_error_mm": 5.42042925444772,
+        "ambiguity": false,
+        "contact_feedback": {
+          "bilateral": true,
+          "center": [
+            0.5693004349205621,
+            0.07959392999369333
+          ]
+        }
+      }
+    ],
+    "unselected_mm": {
+      "red": 0.32956734647449326
+    },
+    "final_xy_error_mm": 1.58,
+    "action_colors": [
+      "blue"
+    ]
+  },
+  {
+    "case": "red-clutter",
+    "development": false,
+    "strategy": "no_retry",
+    "seconds": 1.77,
+    "success": false,
+    "failure": null,
+    "verification": [
+      {
+        "color": "red",
+        "visible": true,
+        "xy_error_mm": 9.771731715549995,
+        "retried": false,
+        "after_error_mm": null,
+        "ambiguity": false
+      }
+    ],
+    "unselected_mm": {
+      "blue": 0.2005529763642479,
+      "green": 0.22867527129472232,
+      "yellow": 0.22915785344897385
+    },
+    "final_xy_error_mm": 12.49,
+    "action_colors": [
+      "red"
+    ]
+  },
+  {
+    "case": "red-clutter",
+    "development": false,
+    "strategy": "legacy",
+    "seconds": 2.88,
+    "success": false,
+    "failure": null,
+    "verification": [
+      {
+        "color": "red",
+        "visible": true,
+        "xy_error_mm": 9.771731715549995,
+        "retried": true,
+        "after_error_mm": 10.786633122889276,
+        "ambiguity": false
+      }
+    ],
+    "unselected_mm": {
+      "blue": 0.32980250351389134,
+      "green": 0.35792911014545264,
+      "yellow": 0.35841169925122124
+    },
+    "final_xy_error_mm": 12.11,
+    "action_colors": [
+      "red"
+    ]
+  },
+  {
+    "case": "red-clutter",
+    "development": false,
+    "strategy": "contact",
+    "seconds": 2.82,
+    "success": false,
+    "failure": null,
+    "verification": [
+      {
+        "color": "red",
+        "visible": true,
+        "xy_error_mm": 9.771731715549995,
+        "retried": true,
+        "after_error_mm": 18.393038403253144,
+        "ambiguity": false,
+        "contact_feedback": {
+          "bilateral": true,
+          "center": [
+            0.5501656030198812,
+            0.09554943964680945
+          ]
+        }
+      }
+    ],
+    "unselected_mm": {
+      "blue": 0.32980250351389134,
+      "green": 0.35792911014545264,
+      "yellow": 0.35841169925122124
+    },
+    "final_xy_error_mm": 19.71,
+    "action_colors": [
+      "red"
+    ]
+  },
+  {
+    "case": "red-duplicate",
+    "development": false,
+    "strategy": "no_retry",
+    "seconds": 1.46,
+    "success": false,
+    "failure": null,
+    "verification": [
+      {
+        "color": "red2",
+        "visible": true,
+        "xy_error_mm": 10.491272721442495,
+        "retried": false,
+        "after_error_mm": null,
+        "ambiguity": false
+      }
+    ],
+    "unselected_mm": {
+      "red": 0.2285680456214389,
+      "blue": 0.20085072814164695
+    },
+    "final_xy_error_mm": 6.1,
+    "action_colors": [
+      "red2"
+    ]
+  },
+  {
+    "case": "red-duplicate",
+    "development": false,
+    "strategy": "legacy",
+    "seconds": 2.36,
+    "success": false,
+    "failure": null,
+    "verification": [
+      {
+        "color": "red2",
+        "visible": true,
+        "xy_error_mm": 10.491272721442495,
+        "retried": true,
+        "after_error_mm": 16.41465154208178,
+        "ambiguity": false
+      }
+    ],
+    "unselected_mm": {
+      "red": 0.3578218826483202,
+      "blue": 0.3301003478408623
+    },
+    "final_xy_error_mm": 13.87,
+    "action_colors": [
+      "red2"
+    ]
+  },
+  {
+    "case": "red-duplicate",
+    "development": false,
+    "strategy": "contact",
+    "seconds": 2.34,
+    "success": false,
+    "failure": null,
+    "verification": [
+      {
+        "color": "red2",
+        "visible": true,
+        "xy_error_mm": 10.491272721442495,
+        "retried": true,
+        "after_error_mm": 6.646185141213505,
+        "ambiguity": false,
+        "contact_feedback": {
+          "bilateral": true,
+          "center": [
+            0.5588382418186529,
+            0.07896134753144211
+          ]
+        }
+      }
+    ],
+    "unselected_mm": {
+      "red": 0.3578218826483202,
+      "blue": 0.3301003478408623
+    },
+    "final_xy_error_mm": 4.98,
+    "action_colors": [
+      "red2"
+    ]
+  },
+  {
+    "case": "blue-unseen",
+    "development": false,
+    "strategy": "no_retry",
+    "seconds": 2.52,
+    "success": false,
+    "failure": null,
+    "verification": [
+      {
+        "color": "blue",
+        "visible": true,
+        "xy_error_mm": 13.24356749665144,
+        "retried": false,
+        "after_error_mm": null,
+        "ambiguity": false
+      }
+    ],
+    "unselected_mm": {
+      "red": 0.20031165785630412,
+      "green": 0.20079419485797098,
+      "yellow": 0.22792461608711487,
+      "magenta": 0.2287825193541101,
+      "cyan": 0.22910366173355876
+    },
+    "final_xy_error_mm": 16.07,
+    "action_colors": [
+      "blue"
+    ]
+  },
+  {
+    "case": "blue-unseen",
+    "development": false,
+    "strategy": "legacy",
+    "seconds": 3.73,
+    "success": false,
+    "failure": null,
+    "verification": [
+      {
+        "color": "blue",
+        "visible": true,
+        "xy_error_mm": 13.24356749665144,
+        "retried": true,
+        "after_error_mm": 21.0775801284117,
+        "ambiguity": false
+      }
+    ],
+    "unselected_mm": {
+      "red": 0.3295611079824919,
+      "green": 0.33004379541049306,
+      "yellow": 0.3571784401959527,
+      "magenta": 0.35803635987388366,
+      "cyan": 0.3583575067390372
+    },
+    "final_xy_error_mm": 17.48,
+    "action_colors": [
+      "blue"
+    ]
+  },
+  {
+    "case": "blue-unseen",
+    "development": false,
+    "strategy": "contact",
+    "seconds": 3.56,
+    "success": false,
+    "failure": null,
+    "verification": [
+      {
+        "color": "blue",
+        "visible": true,
+        "xy_error_mm": 13.24356749665144,
+        "retried": true,
+        "after_error_mm": 6.6874724353957955,
+        "ambiguity": false,
+        "contact_feedback": {
+          "bilateral": true,
+          "center": [
+            0.5622054369112481,
+            0.09871226113605096
+          ]
+        }
+      }
+    ],
+    "unselected_mm": {
+      "red": 0.3295611079824919,
+      "green": 0.33004379541049306,
+      "yellow": 0.3571784401959527,
+      "magenta": 0.35803635987388366,
+      "cyan": 0.3583575067390372
+    },
+    "final_xy_error_mm": 6.22,
+    "action_colors": [
+      "blue"
+    ]
+  },
+  {
+    "case": "red-unseen",
+    "development": false,
+    "strategy": "no_retry",
+    "seconds": 2.45,
+    "success": false,
+    "failure": null,
+    "verification": [
+      {
+        "color": "red",
+        "visible": true,
+        "xy_error_mm": 10.491272721442495,
+        "retried": false,
+        "after_error_mm": null,
+        "ambiguity": false
+      }
+    ],
+    "unselected_mm": {
+      "blue": 0.2005768054808571,
+      "green": 0.22872890192673379,
+      "yellow": 0.22915785344874043
+    },
+    "final_xy_error_mm": 7.0,
+    "action_colors": [
+      "red"
+    ]
+  },
+  {
+    "case": "red-unseen",
+    "development": false,
+    "strategy": "legacy",
+    "seconds": 4.34,
+    "success": false,
+    "failure": null,
+    "verification": [
+      {
+        "color": "red",
+        "visible": true,
+        "xy_error_mm": 10.491272721442495,
+        "retried": true,
+        "after_error_mm": 11.379167560268963,
+        "ambiguity": false
+      }
+    ],
+    "unselected_mm": {
+      "blue": 0.3298263376071586,
+      "green": 0.3579827416092279,
+      "yellow": 0.3584116992508737
+    },
+    "final_xy_error_mm": 11.81,
+    "action_colors": [
+      "red"
+    ]
+  },
+  {
+    "case": "red-unseen",
+    "development": false,
+    "strategy": "contact",
+    "seconds": 3.34,
+    "success": false,
+    "failure": null,
+    "verification": [
+      {
+        "color": "red",
+        "visible": true,
+        "xy_error_mm": 10.491272721442495,
+        "retried": true,
+        "after_error_mm": 27.766368557821522,
+        "ambiguity": false,
+        "contact_feedback": {
+          "bilateral": true,
+          "center": [
+            0.5588382515262503,
+            0.09586491876930636
+          ]
+        }
+      }
+    ],
+    "unselected_mm": {
+      "blue": 0.3298263376071586,
+      "green": 0.3579827416092279,
+      "yellow": 0.3584116992508737
+    },
+    "final_xy_error_mm": 26.22,
+    "action_colors": [
+      "red"
+    ]
+  }
+]

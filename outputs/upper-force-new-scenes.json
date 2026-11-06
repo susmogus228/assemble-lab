@@ -1,0 +1,490 @@
+[
+  {
+    "scene": {
+      "seed": 809,
+      "extra": 0,
+      "same_red": false
+    },
+    "offset": [
+      -0.0135,
+      -0.0024
+    ],
+    "method": "current",
+    "success": false,
+    "failure": null,
+    "relative_mm": 10.349089032319046,
+    "relative_yaw": 0.5020590944268122,
+    "checks": [
+      {
+        "part": 1,
+        "color": "red",
+        "actual": [
+          0.5601628284224784,
+          0.09449138285925845,
+          0.04998830453184809
+        ],
+        "success": false
+      },
+      {
+        "part": 2,
+        "color": "blue",
+        "actual": [
+          0.5611018906587599,
+          0.10479777921857127,
+          0.09997729496715076
+        ],
+        "success": false
+      }
+    ],
+    "upper_final_height_mm": 99.97729496715075,
+    "base_xy_error_mm": 5.5110231262841225,
+    "unselected": {},
+    "verification": [
+      {
+        "color": "red",
+        "visible": true,
+        "xy_error_mm": 4.756273855797019,
+        "retried": false,
+        "after_error_mm": null,
+        "ambiguity": false
+      },
+      {
+        "color": "blue",
+        "visible": true,
+        "xy_error_mm": 10.224039340111474,
+        "retried": false,
+        "after_error_mm": null,
+        "ambiguity": false
+      }
+    ],
+    "hold_checks": 36
+  },
+  {
+    "scene": {
+      "seed": 809,
+      "extra": 0,
+      "same_red": false
+    },
+    "offset": [
+      -0.0135,
+      -0.0024
+    ],
+    "method": "upper_force_8",
+    "success": false,
+    "failure": null,
+    "relative_mm": 10.48256128214744,
+    "relative_yaw": 3.0403352043805327,
+    "checks": [
+      {
+        "part": 1,
+        "color": "red",
+        "actual": [
+          0.5602684600328013,
+          0.0945894993541922,
+          0.049987813660172055
+        ],
+        "success": false
+      },
+      {
+        "part": 2,
+        "color": "blue",
+        "actual": [
+          0.5614937118719341,
+          0.08417879097461119,
+          0.09997661704794936
+        ],
+        "success": false
+      }
+    ],
+    "upper_final_height_mm": 99.97661704794936,
+    "base_xy_error_mm": 5.417156821386875,
+    "unselected": {},
+    "verification": [
+      {
+        "color": "red",
+        "visible": true,
+        "xy_error_mm": 4.756273855797019,
+        "retried": false,
+        "after_error_mm": null,
+        "ambiguity": false
+      },
+      {
+        "color": "blue",
+        "visible": true,
+        "xy_error_mm": 10.357142377777564,
+        "retried": false,
+        "after_error_mm": null,
+        "ambiguity": false
+      }
+    ],
+    "hold_checks": 36
+  },
+  {
+    "scene": {
+      "seed": 811,
+      "extra": 2,
+      "same_red": false
+    },
+    "offset": [
+      -0.0123,
+      0.0093
+    ],
+    "method": "current",
+    "success": false,
+    "failure": "Grasp or held-object camera observation lost during lift",
+    "relative_mm": null,
+    "relative_yaw": null,
+    "checks": [
+      {
+        "part": 1,
+        "color": "red",
+        "actual": [
+          0.5594392445002713,
+          0.09975906192365111,
+          0.0499897637659033
+        ],
+        "success": false
+      },
+      {
+        "part": 2,
+        "color": "blue",
+        "actual": [
+          0.3837254016866034,
+          -0.24592294718000543,
+          0.02498941647591557
+        ],
+        "success": false
+      }
+    ],
+    "upper_final_height_mm": 24.989416475915572,
+    "base_xy_error_mm": 0.6103260498379391,
+    "unselected": {
+      "green": 0.3888198452000022,
+      "yellow": 4.343525792595963
+    },
+    "verification": [
+      {
+        "color": "red",
+        "visible": true,
+        "xy_error_mm": 13.793194253308778,
+        "retried": true,
+        "after_error_mm": 0.6387569788465538,
+        "ambiguity": false,
+        "push_contact": true
+      }
+    ],
+    "hold_checks": 19
+  },
+  {
+    "scene": {
+      "seed": 811,
+      "extra": 2,
+      "same_red": false
+    },
+    "offset": [
+      -0.0123,
+      0.0093
+    ],
+    "method": "upper_force_8",
+    "success": false,
+    "failure": "Grasp or held-object camera observation lost during lift",
+    "relative_mm": null,
+    "relative_yaw": null,
+    "checks": [
+      {
+        "part": 1,
+        "color": "red",
+        "actual": [
+          0.5594392445002713,
+          0.09975906192365111,
+          0.0499897637659033
+        ],
+        "success": false
+      },
+      {
+        "part": 2,
+        "color": "blue",
+        "actual": [
+          0.4100954162261016,
+          -0.2513534432807594,
+          0.02498866610932697
+        ],
+        "success": false
+      }
+    ],
+    "upper_final_height_mm": 24.98866610932697,
+    "base_xy_error_mm": 0.6103260498379391,
+    "unselected": {
+      "green": 0.38881740622536554,
+      "yellow": 5.641149230216709
+    },
+    "verification": [
+      {
+        "color": "red",
+        "visible": true,
+        "xy_error_mm": 13.793194253308778,
+        "retried": true,
+        "after_error_mm": 0.6387569788465538,
+        "ambiguity": false,
+        "push_contact": true
+      }
+    ],
+    "hold_checks": 19
+  },
+  {
+    "scene": {
+      "seed": 821,
+      "extra": 4,
+      "same_red": false
+    },
+    "offset": [
+      0.0021,
+      0.0097
+    ],
+    "method": "current",
+    "success": false,
+    "failure": null,
+    "relative_mm": 13.654209304401377,
+    "relative_yaw": 0.02694281098510487,
+    "checks": [
+      {
+        "part": 1,
+        "color": "red",
+        "actual": [
+          0.560164840798875,
+          0.09877603033275036,
+          0.04998800374631806
+        ],
+        "success": true
+      },
+      {
+        "part": 2,
+        "color": "blue",
+        "actual": [
+          0.5625484649163747,
+          0.11222057449738736,
+          0.09997674011044001
+        ],
+        "success": false
+      }
+    ],
+    "upper_final_height_mm": 99.97674011044002,
+    "base_xy_error_mm": 1.2350199331674516,
+    "unselected": {
+      "green": 0.4714389370033577,
+      "yellow": 0.4980226433369481,
+      "magenta": 0.49930774401819467,
+      "cyan": 0.49946902900776147
+    },
+    "verification": [
+      {
+        "color": "red",
+        "visible": true,
+        "xy_error_mm": 1.4458512248237823,
+        "retried": false,
+        "after_error_mm": null,
+        "ambiguity": false
+      },
+      {
+        "color": "blue",
+        "visible": true,
+        "xy_error_mm": 11.5749463066247,
+        "retried": false,
+        "after_error_mm": null,
+        "ambiguity": false
+      }
+    ],
+    "hold_checks": 36
+  },
+  {
+    "scene": {
+      "seed": 821,
+      "extra": 4,
+      "same_red": false
+    },
+    "offset": [
+      0.0021,
+      0.0097
+    ],
+    "method": "upper_force_8",
+    "success": false,
+    "failure": null,
+    "relative_mm": 8.297438331090316,
+    "relative_yaw": 3.0421961697054485,
+    "checks": [
+      {
+        "part": 1,
+        "color": "red",
+        "actual": [
+          0.5602984775862286,
+          0.09935733957705009,
+          0.04998687811338827
+        ],
+        "success": true
+      },
+      {
+        "part": 2,
+        "color": "blue",
+        "actual": [
+          0.5612485740811036,
+          0.09111447602676169,
+          0.09997480332284973
+        ],
+        "success": false
+      }
+    ],
+    "upper_final_height_mm": 99.97480332284974,
+    "base_xy_error_mm": 0.7085910588675285,
+    "unselected": {
+      "green": 0.47143893604451287,
+      "yellow": 0.49802264333661095,
+      "magenta": 0.49930774401819467,
+      "cyan": 0.49946902900776147
+    },
+    "verification": [
+      {
+        "color": "red",
+        "visible": true,
+        "xy_error_mm": 1.4458512248237823,
+        "retried": false,
+        "after_error_mm": null,
+        "ambiguity": false
+      },
+      {
+        "color": "blue",
+        "visible": true,
+        "xy_error_mm": 8.996436204002253,
+        "retried": false,
+        "after_error_mm": null,
+        "ambiguity": false
+      }
+    ],
+    "hold_checks": 36
+  },
+  {
+    "scene": {
+      "seed": 823,
+      "extra": 1,
+      "same_red": true
+    },
+    "offset": [
+      -0.0049,
+      0.0074
+    ],
+    "method": "current",
+    "success": false,
+    "failure": null,
+    "relative_mm": 4.4717232848759245,
+    "relative_yaw": 0.16664191505833514,
+    "checks": [
+      {
+        "part": 1,
+        "color": "red",
+        "actual": [
+          0.5585051490540425,
+          0.10087562991054362,
+          0.04998682023825304
+        ],
+        "success": true
+      },
+      {
+        "part": 2,
+        "color": "blue",
+        "actual": [
+          0.5611747656070423,
+          0.10446303239652857,
+          0.09997469250343567
+        ],
+        "success": false
+      }
+    ],
+    "upper_final_height_mm": 99.97469250343568,
+    "base_xy_error_mm": 1.7324280911105367,
+    "unselected": {
+      "red2": 0.5510316222419995
+    },
+    "verification": [
+      {
+        "color": "red",
+        "visible": true,
+        "xy_error_mm": 11.349096850671586,
+        "retried": true,
+        "after_error_mm": 2.177069597172336,
+        "ambiguity": false,
+        "push_contact": true
+      },
+      {
+        "color": "blue",
+        "visible": true,
+        "xy_error_mm": 3.0980505016536135,
+        "retried": false,
+        "after_error_mm": null,
+        "ambiguity": false
+      }
+    ],
+    "hold_checks": 36
+  },
+  {
+    "scene": {
+      "seed": 823,
+      "extra": 1,
+      "same_red": true
+    },
+    "offset": [
+      -0.0049,
+      0.0074
+    ],
+    "method": "upper_force_8",
+    "success": false,
+    "failure": null,
+    "relative_mm": 1.32974996233146,
+    "relative_yaw": 2.1763394139694796,
+    "checks": [
+      {
+        "part": 1,
+        "color": "red",
+        "actual": [
+          0.5560965001869853,
+          0.09688203388150306,
+          0.0499879643783971
+        ],
+        "success": false
+      },
+      {
+        "part": 2,
+        "color": "blue",
+        "actual": [
+          0.5556801722972085,
+          0.09814492978002932,
+          0.09997598202243974
+        ],
+        "success": false
+      }
+    ],
+    "upper_final_height_mm": 99.97598202243974,
+    "base_xy_error_mm": 4.995900670179609,
+    "unselected": {
+      "red2": 0.5510316189600611
+    },
+    "verification": [
+      {
+        "color": "red",
+        "visible": true,
+        "xy_error_mm": 11.349096850671586,
+        "retried": true,
+        "after_error_mm": 2.177069597172336,
+        "ambiguity": false,
+        "push_contact": true
+      },
+      {
+        "color": "blue",
+        "visible": true,
+        "xy_error_mm": 4.286364873964792,
+        "retried": false,
+        "after_error_mm": null,
+        "ambiguity": false
+      }
+    ],
+    "hold_checks": 36
+  }
+]

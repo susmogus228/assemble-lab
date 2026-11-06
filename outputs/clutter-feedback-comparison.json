@@ -1,0 +1,326 @@
+[
+  {
+    "seed": 0,
+    "offset": [
+      0,
+      0
+    ],
+    "extra": 0,
+    "feedback": "oracle",
+    "seconds": 5.34,
+    "success": false,
+    "failure": null,
+    "detected": [
+      {
+        "color": "red",
+        "seen": [
+          "red",
+          "blue"
+        ],
+        "laser_confirmed": true
+      },
+      {
+        "color": "blue",
+        "seen": [
+          "red",
+          "blue"
+        ],
+        "laser_confirmed": true
+      }
+    ],
+    "attempted": [
+      "red",
+      "blue"
+    ],
+    "errors_mm": [
+      10.18,
+      3.17
+    ],
+    "unselected_mm": {},
+    "criteria": {
+      "success": false,
+      "piece_checks": [
+        false,
+        false
+      ],
+      "relative_offset_mm": 6.259210377731645,
+      "relative_yaw_degrees": 0.6831744232427965,
+      "position_tolerance_mm": 3,
+      "rotation_tolerance_degrees": 3
+    }
+  },
+  {
+    "seed": 0,
+    "offset": [
+      0,
+      0
+    ],
+    "extra": 0,
+    "feedback": "sensor",
+    "seconds": 4.92,
+    "success": false,
+    "failure": null,
+    "detected": [
+      {
+        "color": "red",
+        "seen": [
+          "red",
+          "blue"
+        ],
+        "laser_confirmed": true
+      },
+      {
+        "color": "blue",
+        "seen": [
+          "red",
+          "blue"
+        ],
+        "laser_confirmed": true
+      }
+    ],
+    "attempted": [
+      "red",
+      "blue"
+    ],
+    "errors_mm": [
+      2.15,
+      4.21
+    ],
+    "unselected_mm": {},
+    "criteria": {
+      "success": false,
+      "piece_checks": [
+        true,
+        false
+      ],
+      "relative_offset_mm": 5.135328618845846,
+      "relative_yaw_degrees": 0.20760685258260736,
+      "position_tolerance_mm": 3,
+      "rotation_tolerance_degrees": 3
+    }
+  },
+  {
+    "seed": 1,
+    "offset": [
+      -0.01,
+      0.005
+    ],
+    "extra": 2,
+    "feedback": "oracle",
+    "seconds": 5.23,
+    "success": false,
+    "failure": null,
+    "detected": [
+      {
+        "color": "red",
+        "seen": [
+          "red",
+          "blue",
+          "green"
+        ],
+        "laser_confirmed": true
+      },
+      {
+        "color": "blue",
+        "seen": [
+          "red",
+          "blue",
+          "green"
+        ],
+        "laser_confirmed": true
+      }
+    ],
+    "attempted": [
+      "red",
+      "blue"
+    ],
+    "errors_mm": [
+      21.94,
+      30.35
+    ],
+    "unselected_mm": {
+      "green": 0.41944249986596344,
+      "yellow": 0.44614248671182233
+    },
+    "criteria": {
+      "success": false,
+      "piece_checks": [
+        false,
+        false
+      ],
+      "relative_offset_mm": 51.98203503626482,
+      "relative_yaw_degrees": 0.8267680961889852,
+      "position_tolerance_mm": 3,
+      "rotation_tolerance_degrees": 3
+    }
+  },
+  {
+    "seed": 1,
+    "offset": [
+      -0.01,
+      0.005
+    ],
+    "extra": 2,
+    "feedback": "sensor",
+    "seconds": 4.69,
+    "success": false,
+    "failure": null,
+    "detected": [
+      {
+        "color": "red",
+        "seen": [
+          "red",
+          "blue",
+          "green"
+        ],
+        "laser_confirmed": true
+      },
+      {
+        "color": "blue",
+        "seen": [
+          "red",
+          "blue",
+          "green"
+        ],
+        "laser_confirmed": true
+      }
+    ],
+    "attempted": [
+      "red",
+      "blue"
+    ],
+    "errors_mm": [
+      12.5,
+      2.88
+    ],
+    "unselected_mm": {
+      "green": 0.41943377944904775,
+      "yellow": 0.44613398889017974
+    },
+    "criteria": {
+      "success": false,
+      "piece_checks": [
+        false,
+        true
+      ],
+      "relative_offset_mm": 15.123862726971707,
+      "relative_yaw_degrees": 2.129151216125095,
+      "position_tolerance_mm": 3,
+      "rotation_tolerance_degrees": 3
+    }
+  },
+  {
+    "seed": 2,
+    "offset": [
+      0.01,
+      -0.005
+    ],
+    "extra": 4,
+    "feedback": "oracle",
+    "seconds": 7.54,
+    "success": false,
+    "failure": null,
+    "detected": [
+      {
+        "color": "red",
+        "seen": [
+          "red",
+          "blue",
+          "green"
+        ],
+        "laser_confirmed": true
+      },
+      {
+        "color": "blue",
+        "seen": [
+          "red",
+          "blue",
+          "green"
+        ],
+        "laser_confirmed": true
+      }
+    ],
+    "attempted": [
+      "red",
+      "blue"
+    ],
+    "errors_mm": [
+      13.11,
+      40.82
+    ],
+    "unselected_mm": {
+      "green": 0.41916700438603777,
+      "yellow": 0.4193814048913694,
+      "magenta": 0.41981751831228364,
+      "cyan": 0.447581303619045
+    },
+    "criteria": {
+      "success": false,
+      "piece_checks": [
+        false,
+        false
+      ],
+      "relative_offset_mm": 54.16236767918344,
+      "relative_yaw_degrees": 0.0003530230491648467,
+      "position_tolerance_mm": 3,
+      "rotation_tolerance_degrees": 3
+    }
+  },
+  {
+    "seed": 2,
+    "offset": [
+      0.01,
+      -0.005
+    ],
+    "extra": 4,
+    "feedback": "sensor",
+    "seconds": 5.28,
+    "success": false,
+    "failure": null,
+    "detected": [
+      {
+        "color": "red",
+        "seen": [
+          "red",
+          "blue",
+          "green"
+        ],
+        "laser_confirmed": true
+      },
+      {
+        "color": "blue",
+        "seen": [
+          "red",
+          "blue",
+          "green"
+        ],
+        "laser_confirmed": true
+      }
+    ],
+    "attempted": [
+      "red",
+      "blue"
+    ],
+    "errors_mm": [
+      8.07,
+      11.84
+    ],
+    "unselected_mm": {
+      "green": 0.41916700438603777,
+      "yellow": 0.4193814048913694,
+      "magenta": 0.41981751831228364,
+      "cyan": 0.447581303619045
+    },
+    "criteria": {
+      "success": false,
+      "piece_checks": [
+        false,
+        false
+      ],
+      "relative_offset_mm": 19.809332890239624,
+      "relative_yaw_degrees": 0.3929489169507221,
+      "position_tolerance_mm": 3,
+      "rotation_tolerance_degrees": 3
+    }
+  }
+]

@@ -1,0 +1,176 @@
+[
+  {
+    "seed": 1009,
+    "success": false,
+    "failure": "Grasp or held-object camera observation lost during lift",
+    "relative_mm": null,
+    "checks": [
+      {
+        "part": 1,
+        "color": "red",
+        "actual": [
+          0.5594857941982492,
+          0.10364381726034001,
+          0.049988606478348685
+        ],
+        "success": false
+      },
+      {
+        "part": 2,
+        "color": "blue",
+        "actual": [
+          0.4439761740715598,
+          -0.24641175691385692,
+          0.1899196380434038
+        ],
+        "success": false
+      }
+    ],
+    "unselected": {},
+    "reobservations": [
+      {
+        "stage": "lift",
+        "before": [
+          0.4367806315422058,
+          -0.26419979333877563,
+          0.19999998807907104
+        ],
+        "target": [
+          0.45678063154220583,
+          -0.24419979333877564,
+          0.19999998807907104
+        ],
+        "result": "conflict",
+        "after": [
+          0.45627304911613464,
+          -0.24469657242298126,
+          0.19999969005584717
+        ]
+      }
+    ],
+    "tracking_mean_mm": null
+  },
+  {
+    "seed": 1019,
+    "success": false,
+    "failure": "Grasp or held-object camera observation lost during lift",
+    "relative_mm": null,
+    "checks": [
+      {
+        "part": 1,
+        "color": "red",
+        "actual": [
+          0.5621517514235329,
+          0.09877351426862849,
+          0.049989735895836225
+        ],
+        "success": false
+      },
+      {
+        "part": 2,
+        "color": "blue",
+        "actual": [
+          0.45852083636086693,
+          -0.25144434538116106,
+          0.18984022990004387
+        ],
+        "success": false
+      }
+    ],
+    "unselected": {
+      "green": 0.3176823836287985,
+      "yellow": 0.345970224429462,
+      "magenta": 0.34624656411540583,
+      "cyan": 0.3466128409255915
+    },
+    "reobservations": [
+      {
+        "stage": "lift",
+        "before": [
+          0.44023701548576355,
+          -0.27111348509788513,
+          0.20000000298023224
+        ],
+        "target": [
+          0.46023701548576357,
+          -0.2511134850978851,
+          0.20000000298023224
+        ],
+        "result": "conflict",
+        "after": [
+          0.45972946286201477,
+          -0.25161027908325195,
+          0.19999974966049194
+        ]
+      }
+    ],
+    "tracking_mean_mm": null
+  },
+  {
+    "seed": 1013,
+    "success": true,
+    "failure": null,
+    "relative_mm": 2.599161268241455,
+    "checks": [
+      {
+        "part": 1,
+        "color": "red",
+        "actual": [
+          0.5587285113571208,
+          0.10157235060303961,
+          0.04998801261755123
+        ],
+        "success": true
+      },
+      {
+        "part": 2,
+        "color": "blue",
+        "actual": [
+          0.5611744885549083,
+          0.10069324034474993,
+          0.09997659964899723
+        ],
+        "success": true
+      }
+    ],
+    "unselected": {
+      "green": 0.4712846371365831,
+      "yellow": 0.498344479769374
+    },
+    "reobservations": [],
+    "tracking_mean_mm": 1.1508215968579218
+  },
+  {
+    "seed": 1021,
+    "success": false,
+    "failure": null,
+    "relative_mm": 2.725924358535857,
+    "checks": [
+      {
+        "part": 1,
+        "color": "red",
+        "actual": [
+          0.5594775495203662,
+          0.10408263185939665,
+          0.04998838233591044
+        ],
+        "success": false
+      },
+      {
+        "part": 2,
+        "color": "blue",
+        "actual": [
+          0.5615433650578124,
+          0.1023041297442152,
+          0.09997715780177437
+        ],
+        "success": true
+      }
+    ],
+    "unselected": {
+      "red2": 0.47128667844649447
+    },
+    "reobservations": [],
+    "tracking_mean_mm": 1.2400508825660843
+  }
+]

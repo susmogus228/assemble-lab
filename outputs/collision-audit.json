@@ -1,0 +1,365 @@
+[
+  {
+    "success": false,
+    "source": [
+      0.44,
+      -0.16
+    ],
+    "destination": [
+      0.56,
+      0.1
+    ],
+    "final_position": [
+      0.5812241303566381,
+      0.152225875179035,
+      0.0499895514139027
+    ],
+    "target": [
+      0.56,
+      0.1,
+      0.05
+    ],
+    "speed": 1.0256210529261879e-05,
+    "robot_contacts": 0,
+    "contact_steps": {
+      "both": 1579,
+      "left_only": 243,
+      "right_only": 0
+    },
+    "shape": "cube",
+    "max_height": 0.20384852328528222
+  },
+  {
+    "success": true,
+    "source": [
+      0.48,
+      -0.14
+    ],
+    "destination": [
+      0.56,
+      0.1
+    ],
+    "final_position": [
+      0.5719606999739634,
+      0.10061744526241685,
+      0.049989731942841745
+    ],
+    "target": [
+      0.56,
+      0.1,
+      0.05
+    ],
+    "speed": 1.2864543998226325e-05,
+    "robot_contacts": 0,
+    "contact_steps": {
+      "both": 1579,
+      "left_only": 27,
+      "right_only": 0
+    },
+    "shape": "cube",
+    "max_height": 0.20441600538809795
+  },
+  {
+    "success": false,
+    "source": [
+      0.51,
+      -0.1
+    ],
+    "destination": [
+      0.56,
+      0.1
+    ],
+    "final_position": [
+      0.5704968565219447,
+      0.12714800451067104,
+      0.049988602384732135
+    ],
+    "target": [
+      0.56,
+      0.1,
+      0.05
+    ],
+    "speed": 1.2849401297594684e-05,
+    "robot_contacts": 0,
+    "contact_steps": {
+      "both": 1579,
+      "left_only": 0,
+      "right_only": 241
+    },
+    "shape": "cube",
+    "max_height": 0.20571667610876926
+  },
+  {
+    "success": false,
+    "source": [
+      0.48,
+      -0.14
+    ],
+    "destination": [
+      0.56,
+      0.1
+    ],
+    "final_position": [
+      0.4800030614639717,
+      -0.13983151500128932,
+      0.024988603059775495
+    ],
+    "target": [
+      0.56,
+      0.1,
+      0.05
+    ],
+    "speed": 1.2891306228993276e-05,
+    "robot_contacts": 0,
+    "contact_steps": {
+      "both": 0,
+      "left_only": 0,
+      "right_only": 0
+    },
+    "shape": "cube",
+    "max_height": 0.02499002493097859,
+    "negative_control": true
+  },
+  {
+    "success": false,
+    "source": [
+      0.44,
+      -0.16
+    ],
+    "destination": [
+      0.56,
+      0.1
+    ],
+    "final_position": [
+      0.571296796597424,
+      0.11733801441035085,
+      0.04998913133742437
+    ],
+    "target": [
+      0.56,
+      0.1,
+      0.05
+    ],
+    "speed": 1.7930313591797684e-05,
+    "robot_contacts": 0,
+    "contact_steps": {
+      "both": 1579,
+      "left_only": 0,
+      "right_only": 1
+    },
+    "shape": "cylinder",
+    "max_height": 0.20379498403922483
+  },
+  {
+    "success": false,
+    "source": [
+      0.48,
+      -0.14
+    ],
+    "destination": [
+      0.56,
+      0.1
+    ],
+    "final_position": [
+      0.5173848443786667,
+      0.16273269038268598,
+      0.04996388954167071
+    ],
+    "target": [
+      0.56,
+      0.1,
+      0.05
+    ],
+    "speed": 0.06366200088975761,
+    "robot_contacts": 0,
+    "contact_steps": {
+      "both": 1579,
+      "left_only": 243,
+      "right_only": 0
+    },
+    "shape": "cylinder",
+    "max_height": 0.20441817579009447
+  },
+  {
+    "success": false,
+    "source": [
+      0.51,
+      -0.1
+    ],
+    "destination": [
+      0.56,
+      0.1
+    ],
+    "final_position": [
+      0.978669740819823,
+      0.12482149692728611,
+      0.024637712087896117
+    ],
+    "target": [
+      0.56,
+      0.1,
+      0.05
+    ],
+    "speed": 0.2787477537821052,
+    "robot_contacts": 0,
+    "contact_steps": {
+      "both": 1579,
+      "left_only": 238,
+      "right_only": 0
+    },
+    "shape": "cylinder",
+    "max_height": 0.20571139676832415
+  },
+  {
+    "success": false,
+    "source": [
+      0.48,
+      -0.14
+    ],
+    "destination": [
+      0.56,
+      0.1
+    ],
+    "final_position": [
+      0.4800685046598451,
+      -0.14004450549102046,
+      0.024989625124435318
+    ],
+    "target": [
+      0.56,
+      0.1,
+      0.05
+    ],
+    "speed": 6.38033226766902e-06,
+    "robot_contacts": 0,
+    "contact_steps": {
+      "both": 0,
+      "left_only": 0,
+      "right_only": 0
+    },
+    "shape": "cylinder",
+    "max_height": 0.024989625122249868,
+    "negative_control": true
+  },
+  {
+    "success": false,
+    "source": [
+      0.44,
+      -0.16
+    ],
+    "destination": [
+      0.56,
+      0.1
+    ],
+    "final_position": [
+      6.083729629153914,
+      4.115614005814311,
+      -88.44806313287074
+    ],
+    "target": [
+      0.56,
+      0.1,
+      0.05
+    ],
+    "speed": 15.163177846779986,
+    "robot_contacts": 0,
+    "contact_steps": {
+      "both": 703,
+      "left_only": 3,
+      "right_only": 0
+    },
+    "shape": "sphere",
+    "max_height": 0.20465893003485336
+  },
+  {
+    "success": false,
+    "source": [
+      0.48,
+      -0.14
+    ],
+    "destination": [
+      0.56,
+      0.1
+    ],
+    "final_position": [
+      0.5659023373543418,
+      0.1139642017926169,
+      0.04998999999999999
+    ],
+    "target": [
+      0.56,
+      0.1,
+      0.05
+    ],
+    "speed": 0.00258990744997774,
+    "robot_contacts": 0,
+    "contact_steps": {
+      "both": 1578,
+      "left_only": 7,
+      "right_only": 1
+    },
+    "shape": "sphere",
+    "max_height": 0.2038884676439995
+  },
+  {
+    "success": false,
+    "source": [
+      0.51,
+      -0.1
+    ],
+    "destination": [
+      0.56,
+      0.1
+    ],
+    "final_position": [
+      0.5642309566721233,
+      0.12511930819075218,
+      0.04998999999999997
+    ],
+    "target": [
+      0.56,
+      0.1,
+      0.05
+    ],
+    "speed": 0.0012712913103995285,
+    "robot_contacts": 0,
+    "contact_steps": {
+      "both": 1578,
+      "left_only": 0,
+      "right_only": 9
+    },
+    "shape": "sphere",
+    "max_height": 0.20517288172850426
+  },
+  {
+    "success": false,
+    "source": [
+      0.48,
+      -0.14
+    ],
+    "destination": [
+      0.56,
+      0.1
+    ],
+    "final_position": [
+      0.48000000000001003,
+      -0.1400000000000009,
+      0.024989999999999995
+    ],
+    "target": [
+      0.56,
+      0.1,
+      0.05
+    ],
+    "speed": 4.547458095299686e-15,
+    "robot_contacts": 0,
+    "contact_steps": {
+      "both": 0,
+      "left_only": 0,
+      "right_only": 0
+    },
+    "shape": "sphere",
+    "max_height": 0.024990000000000002,
+    "negative_control": true
+  }
+]
